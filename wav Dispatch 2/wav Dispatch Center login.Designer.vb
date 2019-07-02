@@ -56,10 +56,10 @@ Partial Class Form1
         Me.txtPassword.BackColor = System.Drawing.Color.Silver
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.Color.White
-        Me.txtPassword.Location = New System.Drawing.Point(149, 141)
+        Me.txtPassword.Location = New System.Drawing.Point(154, 141)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(484, 35)
+        Me.txtPassword.Size = New System.Drawing.Size(479, 35)
         Me.txtPassword.TabIndex = 20
         '
         'txtUsername
@@ -77,7 +77,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(4, 144)
+        Me.Label3.Location = New System.Drawing.Point(-3, 147)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(151, 29)
         Me.Label3.TabIndex = 18
