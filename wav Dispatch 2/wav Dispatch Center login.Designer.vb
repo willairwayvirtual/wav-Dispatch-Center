@@ -59,7 +59,7 @@ Partial Class Form1
         Me.txtPassword.Location = New System.Drawing.Point(149, 141)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(454, 35)
+        Me.txtPassword.Size = New System.Drawing.Size(484, 35)
         Me.txtPassword.TabIndex = 20
         '
         'txtUsername
@@ -69,7 +69,7 @@ Partial Class Form1
         Me.txtUsername.ForeColor = System.Drawing.Color.White
         Me.txtUsername.Location = New System.Drawing.Point(149, 86)
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(455, 35)
+        Me.txtUsername.Size = New System.Drawing.Size(478, 35)
         Me.txtUsername.TabIndex = 19
         '
         'Label3
