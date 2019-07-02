@@ -35,7 +35,7 @@ Partial Class Splash
         '
         Me.ProgressBar1.Location = New System.Drawing.Point(-8, 352)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(883, 43)
+        Me.ProgressBar1.Size = New System.Drawing.Size(766, 43)
         Me.ProgressBar1.Step = 1
         Me.ProgressBar1.TabIndex = 1
         '
@@ -60,7 +60,7 @@ Partial Class Splash
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-8, 1)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(883, 358)
+        Me.PictureBox1.Size = New System.Drawing.Size(766, 358)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
@@ -69,7 +69,7 @@ Partial Class Splash
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.ClientSize = New System.Drawing.Size(861, 389)
+        Me.ClientSize = New System.Drawing.Size(750, 389)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
