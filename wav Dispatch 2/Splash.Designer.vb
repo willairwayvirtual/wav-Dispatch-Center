@@ -58,9 +58,9 @@ Partial Class Splash
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-8, -6)
+        Me.PictureBox1.Location = New System.Drawing.Point(-8, -12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(866, 361)
+        Me.PictureBox1.Size = New System.Drawing.Size(866, 371)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
@@ -74,6 +74,7 @@ Partial Class Splash
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Splash"
         Me.Text = "wav Desktop App"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
