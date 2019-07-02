@@ -58,9 +58,9 @@ Partial Class Splash
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-8, -12)
+        Me.PictureBox1.Location = New System.Drawing.Point(-8, 1)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(883, 371)
+        Me.PictureBox1.Size = New System.Drawing.Size(883, 358)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
