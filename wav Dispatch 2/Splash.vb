@@ -11,7 +11,7 @@
 
         If ProgressBar1.Value = 100 Then
             Timer1.Stop()
-
+            Form1.Show()
             Me.Hide()
         End If
 
