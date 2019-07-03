@@ -30,11 +30,12 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(2, 182)
+        Me.Button1.Location = New System.Drawing.Point(0, 204)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(625, 28)
         Me.Button1.TabIndex = 22
@@ -57,7 +58,7 @@ Partial Class Form1
         Me.txtPassword.BackColor = System.Drawing.Color.Silver
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPassword.ForeColor = System.Drawing.Color.White
-        Me.txtPassword.Location = New System.Drawing.Point(154, 141)
+        Me.txtPassword.Location = New System.Drawing.Point(154, 144)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPassword.Size = New System.Drawing.Size(479, 35)
@@ -68,7 +69,7 @@ Partial Class Form1
         Me.txtUsername.BackColor = System.Drawing.Color.Silver
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.ForeColor = System.Drawing.Color.White
-        Me.txtUsername.Location = New System.Drawing.Point(149, 86)
+        Me.txtUsername.Location = New System.Drawing.Point(154, 86)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(478, 35)
         Me.txtUsername.TabIndex = 19
@@ -106,12 +107,24 @@ Partial Class Form1
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "Welcome to the wav Dispatch Center"
         '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(0, 182)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(110, 19)
+        Me.CheckBox1.TabIndex = 23
+        Me.CheckBox1.Text = "Remember me"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(628, 214)
+        Me.ClientSize = New System.Drawing.Size(622, 231)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtPassword)
@@ -135,4 +148,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
