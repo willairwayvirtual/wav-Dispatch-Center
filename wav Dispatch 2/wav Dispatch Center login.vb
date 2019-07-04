@@ -43,6 +43,7 @@ Public Class Form1
 
             Dim obj As New Form2
 
+            obj.Show()
             Me.Close()
         Else
             MsgBox("YOU DONT EXIST", MsgBoxStyle.OkOnly, "YOU DONT EXIST")
