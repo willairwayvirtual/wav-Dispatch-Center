@@ -33,7 +33,7 @@ Partial Class Form3
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(155, 9)
+        Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(176, 25)
         Me.Label2.TabIndex = 10
@@ -43,7 +43,7 @@ Partial Class Form3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(169, 34)
+        Me.Label3.Location = New System.Drawing.Point(12, 45)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(142, 25)
         Me.Label3.TabIndex = 11
@@ -54,7 +54,7 @@ Partial Class Form3
         Me.TextBox6.BackColor = System.Drawing.Color.Silver
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.ForeColor = System.Drawing.Color.White
-        Me.TextBox6.Location = New System.Drawing.Point(367, 45)
+        Me.TextBox6.Location = New System.Drawing.Point(203, 47)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(255, 29)
         Me.TextBox6.TabIndex = 12
@@ -64,7 +64,7 @@ Partial Class Form3
         Me.TextBox3.BackColor = System.Drawing.Color.Silver
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.White
-        Me.TextBox3.Location = New System.Drawing.Point(367, 12)
+        Me.TextBox3.Location = New System.Drawing.Point(203, 12)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(255, 29)
         Me.TextBox3.TabIndex = 13
@@ -74,7 +74,7 @@ Partial Class Form3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(1157, 368)
+        Me.ClientSize = New System.Drawing.Size(740, 368)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.Label3)
