@@ -135,7 +135,7 @@ Partial Class Form2
         Me.Panel3.BackColor = System.Drawing.Color.White
         Me.Panel3.Location = New System.Drawing.Point(1, 328)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(865, 101)
+        Me.Panel3.Size = New System.Drawing.Size(867, 101)
         Me.Panel3.TabIndex = 29
         '
         'Button6

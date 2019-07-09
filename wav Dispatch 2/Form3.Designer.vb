@@ -47,7 +47,7 @@ Partial Class Form3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(12, 45)
+        Me.Label3.Location = New System.Drawing.Point(12, 53)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(142, 25)
         Me.Label3.TabIndex = 11
@@ -56,37 +56,37 @@ Partial Class Form3
         'TextBox6
         '
         Me.TextBox6.BackColor = System.Drawing.Color.Silver
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.ForeColor = System.Drawing.Color.White
-        Me.TextBox6.Location = New System.Drawing.Point(203, 47)
+        Me.TextBox6.Location = New System.Drawing.Point(203, 56)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(255, 29)
+        Me.TextBox6.Size = New System.Drawing.Size(255, 49)
         Me.TextBox6.TabIndex = 12
         '
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.Color.Silver
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.White
-        Me.TextBox3.Location = New System.Drawing.Point(203, 12)
+        Me.TextBox3.Location = New System.Drawing.Point(203, 1)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(255, 29)
+        Me.TextBox3.Size = New System.Drawing.Size(255, 49)
         Me.TextBox3.TabIndex = 13
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(603, -1)
+        Me.Button1.Location = New System.Drawing.Point(518, -1)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(141, 51)
+        Me.Button1.Size = New System.Drawing.Size(226, 51)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "Search for Route"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(603, 47)
+        Me.Button2.Location = New System.Drawing.Point(510, 47)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(141, 42)
+        Me.Button2.Size = New System.Drawing.Size(234, 42)
         Me.Button2.TabIndex = 15
         Me.Button2.Text = "back"
         Me.Button2.UseVisualStyleBackColor = True
@@ -94,7 +94,7 @@ Partial Class Form3
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(-1, 93)
+        Me.DataGridView1.Location = New System.Drawing.Point(-13, 104)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(757, 290)
         Me.DataGridView1.TabIndex = 16
@@ -104,7 +104,7 @@ Partial Class Form3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(740, 368)
+        Me.ClientSize = New System.Drawing.Size(746, 406)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
