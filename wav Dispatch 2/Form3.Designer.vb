@@ -84,9 +84,9 @@ Partial Class Form3
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(510, 47)
+        Me.Button2.Location = New System.Drawing.Point(518, 47)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(234, 42)
+        Me.Button2.Size = New System.Drawing.Size(226, 58)
         Me.Button2.TabIndex = 15
         Me.Button2.Text = "back"
         Me.Button2.UseVisualStyleBackColor = True
@@ -94,9 +94,9 @@ Partial Class Form3
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(-13, 104)
+        Me.DataGridView1.Location = New System.Drawing.Point(-13, 111)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(757, 290)
+        Me.DataGridView1.Size = New System.Drawing.Size(757, 296)
         Me.DataGridView1.TabIndex = 16
         '
         'Form3
