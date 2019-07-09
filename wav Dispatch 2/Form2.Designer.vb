@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -36,6 +37,11 @@ Partial Class Form2
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label1
@@ -61,6 +67,7 @@ Partial Class Form2
         '
         'Button1
         '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(-19, 51)
         Me.Button1.Name = "Button1"
@@ -79,6 +86,7 @@ Partial Class Form2
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Location = New System.Drawing.Point(1, 137)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(865, 24)
@@ -104,6 +112,7 @@ Partial Class Form2
         '
         'Button4
         '
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Location = New System.Drawing.Point(2, 213)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(865, 23)
@@ -113,6 +122,7 @@ Partial Class Form2
         '
         'Button5
         '
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Location = New System.Drawing.Point(1, 299)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(865, 23)
@@ -130,6 +140,7 @@ Partial Class Form2
         '
         'Button6
         '
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Location = New System.Drawing.Point(2, 435)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(866, 23)
@@ -159,7 +170,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(884, 557)
+        Me.ClientSize = New System.Drawing.Size(869, 557)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Button6)
@@ -195,4 +206,9 @@ Partial Class Form2
     Friend WithEvents Button6 As Button
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Button7 As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents Timer3 As Timer
+    Friend WithEvents Timer4 As Timer
+    Friend WithEvents Timer5 As Timer
 End Class
