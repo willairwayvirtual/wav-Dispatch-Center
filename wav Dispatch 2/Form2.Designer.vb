@@ -34,14 +34,11 @@ Partial Class Form2
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
-        Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label1
@@ -135,26 +132,8 @@ Partial Class Form2
         Me.Panel3.BackColor = System.Drawing.Color.White
         Me.Panel3.Location = New System.Drawing.Point(1, 328)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(867, 101)
+        Me.Panel3.Size = New System.Drawing.Size(865, 159)
         Me.Panel3.TabIndex = 29
-        '
-        'Button6
-        '
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(2, 435)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(866, 23)
-        Me.Button6.TabIndex = 30
-        Me.Button6.Text = "alternates"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Panel6
-        '
-        Me.Panel6.BackColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(2, 464)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(865, 101)
-        Me.Panel6.TabIndex = 31
         '
         'Button7
         '
@@ -170,10 +149,8 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(869, 557)
+        Me.ClientSize = New System.Drawing.Size(862, 486)
         Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -203,12 +180,9 @@ Partial Class Form2
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Panel6 As Panel
     Friend WithEvents Button7 As Button
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Timer4 As Timer
-    Friend WithEvents Timer5 As Timer
 End Class
