@@ -69,7 +69,7 @@ Partial Class Form2
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.BackColor = System.Drawing.Color.Silver
         Me.Panel1.Location = New System.Drawing.Point(1, 117)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(865, 42)
@@ -77,7 +77,7 @@ Partial Class Form2
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.White
+        Me.Panel5.BackColor = System.Drawing.Color.Silver
         Me.Panel5.Location = New System.Drawing.Point(2, 269)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(865, 51)
@@ -85,7 +85,7 @@ Partial Class Form2
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.White
+        Me.Panel2.BackColor = System.Drawing.Color.Silver
         Me.Panel2.Location = New System.Drawing.Point(2, 195)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(864, 39)
@@ -93,7 +93,7 @@ Partial Class Form2
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.White
+        Me.Panel3.BackColor = System.Drawing.Color.Silver
         Me.Panel3.Location = New System.Drawing.Point(2, 355)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(867, 101)
@@ -110,7 +110,7 @@ Partial Class Form2
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.White
+        Me.Panel6.BackColor = System.Drawing.Color.Silver
         Me.Panel6.Location = New System.Drawing.Point(3, 491)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(865, 101)
