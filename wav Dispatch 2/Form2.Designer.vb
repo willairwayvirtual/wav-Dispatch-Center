@@ -26,13 +26,9 @@ Partial Class Form2
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -40,10 +36,14 @@ Partial Class Form2
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.logout = New System.Windows.Forms.Button()
+        Me.fliginfo = New System.Windows.Forms.Button()
+        Me.AircraftType = New System.Windows.Forms.Button()
+        Me.PAYLOAD = New System.Windows.Forms.Button()
+        Me.Route = New System.Windows.Forms.Button()
+        Me.alternates = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -67,17 +67,6 @@ Partial Class Form2
         Me.Label2.TabIndex = 18
         Me.Label2.Text = " Dispatch a new flignt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
         '
-        'Button1
-        '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(1, 79)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(887, 32)
-        Me.Button1.TabIndex = 19
-        Me.Button1.Text = "fliginfo"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
@@ -85,16 +74,6 @@ Partial Class Form2
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(865, 42)
         Me.Panel1.TabIndex = 20
-        '
-        'Button2
-        '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(1, 165)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(865, 24)
-        Me.Button2.TabIndex = 21
-        Me.Button2.Text = "AircraftType"
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'Panel5
         '
@@ -112,26 +91,6 @@ Partial Class Form2
         Me.Panel2.Size = New System.Drawing.Size(864, 39)
         Me.Panel2.TabIndex = 25
         '
-        'Button4
-        '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(1, 240)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(865, 23)
-        Me.Button4.TabIndex = 27
-        Me.Button4.Text = "PAYLOAD"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(1, 326)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(865, 23)
-        Me.Button5.TabIndex = 28
-        Me.Button5.Text = "Route"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.White
@@ -148,16 +107,6 @@ Partial Class Form2
         Me.Button7.TabIndex = 32
         Me.Button7.Text = "Search for Route"
         Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(2, 462)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(866, 23)
-        Me.Button6.TabIndex = 30
-        Me.Button6.Text = "alternates"
-        Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel6
         '
@@ -186,25 +135,80 @@ Partial Class Form2
         Me.logout.Text = "logout"
         Me.logout.UseVisualStyleBackColor = True
         '
+        'fliginfo
+        '
+        Me.fliginfo.BackColor = System.Drawing.Color.Silver
+        Me.fliginfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.fliginfo.Location = New System.Drawing.Point(1, 88)
+        Me.fliginfo.Name = "fliginfo"
+        Me.fliginfo.Size = New System.Drawing.Size(868, 23)
+        Me.fliginfo.TabIndex = 35
+        Me.fliginfo.Text = "fliginfo"
+        Me.fliginfo.UseVisualStyleBackColor = False
+        '
+        'AircraftType
+        '
+        Me.AircraftType.BackColor = System.Drawing.Color.Silver
+        Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AircraftType.Location = New System.Drawing.Point(1, 166)
+        Me.AircraftType.Name = "AircraftType"
+        Me.AircraftType.Size = New System.Drawing.Size(884, 23)
+        Me.AircraftType.TabIndex = 36
+        Me.AircraftType.Text = "AircraftType"
+        Me.AircraftType.UseVisualStyleBackColor = False
+        '
+        'PAYLOAD
+        '
+        Me.PAYLOAD.BackColor = System.Drawing.Color.Silver
+        Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PAYLOAD.Location = New System.Drawing.Point(1, 241)
+        Me.PAYLOAD.Name = "PAYLOAD"
+        Me.PAYLOAD.Size = New System.Drawing.Size(868, 23)
+        Me.PAYLOAD.TabIndex = 37
+        Me.PAYLOAD.Text = "PAYLOAD"
+        Me.PAYLOAD.UseVisualStyleBackColor = False
+        '
+        'Route
+        '
+        Me.Route.BackColor = System.Drawing.Color.Silver
+        Me.Route.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Route.Location = New System.Drawing.Point(1, 327)
+        Me.Route.Name = "Route"
+        Me.Route.Size = New System.Drawing.Size(865, 23)
+        Me.Route.TabIndex = 38
+        Me.Route.Text = "Route"
+        Me.Route.UseVisualStyleBackColor = False
+        '
+        'alternates
+        '
+        Me.alternates.BackColor = System.Drawing.Color.Silver
+        Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.alternates.Location = New System.Drawing.Point(2, 462)
+        Me.alternates.Name = "alternates"
+        Me.alternates.Size = New System.Drawing.Size(867, 23)
+        Me.alternates.TabIndex = 39
+        Me.alternates.Text = "alternates"
+        Me.alternates.UseVisualStyleBackColor = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.ClientSize = New System.Drawing.Size(866, 590)
+        Me.Controls.Add(Me.alternates)
+        Me.Controls.Add(Me.Route)
+        Me.Controls.Add(Me.PAYLOAD)
+        Me.Controls.Add(Me.AircraftType)
+        Me.Controls.Add(Me.fliginfo)
         Me.Controls.Add(Me.logout)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel5)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
@@ -218,13 +222,9 @@ Partial Class Form2
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button2 As Button
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Button7 As Button
     Friend WithEvents Timer1 As Timer
@@ -232,8 +232,12 @@ Partial Class Form2
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Timer4 As Timer
     Friend WithEvents Timer5 As Timer
-    Friend WithEvents Button6 As Button
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents logout As Button
+    Friend WithEvents fliginfo As Button
+    Friend WithEvents AircraftType As Button
+    Friend WithEvents PAYLOAD As Button
+    Friend WithEvents Route As Button
+    Friend WithEvents alternates As Button
 End Class
