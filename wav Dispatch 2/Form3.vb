@@ -29,7 +29,7 @@ Public Class Form3
         Dim da As New OleDbDataAdapter
 
         'da = New OleDbDataAdapter("Select * from flightplan where fltnum Like '%" & TextBox1.Text & "%'", conn)
-        da = New OleDbDataAdapter("Select * from Search for Route  WHERE  [Deptair] = '" & TextBox3.Text & "' Or [Arrair] = '" & TextBox6.Text & "'", conn)
+        da = New OleDbDataAdapter("Select * from RouteSearch  WHERE  [Deptair] = '" & TextBox3.Text & "' Or [Arrair] = '" & TextBox6.Text & "'", conn)
         da.Fill(dt)
 
         DataGridView1.DataSource = dt.DefaultView
