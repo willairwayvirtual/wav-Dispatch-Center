@@ -42,6 +42,7 @@ Partial Class Form2
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -58,10 +59,10 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(278, 9)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(279, -2)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(322, 74)
+        Me.Label2.Size = New System.Drawing.Size(272, 62)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = " Dispatch a new flignt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
         '
@@ -69,7 +70,7 @@ Partial Class Form2
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(-19, 51)
+        Me.Button1.Location = New System.Drawing.Point(2, 70)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(887, 32)
         Me.Button1.TabIndex = 19
@@ -79,7 +80,7 @@ Partial Class Form2
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Location = New System.Drawing.Point(1, 89)
+        Me.Panel1.Location = New System.Drawing.Point(4, 108)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(865, 42)
         Me.Panel1.TabIndex = 20
@@ -87,7 +88,7 @@ Partial Class Form2
         'Button2
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(1, 137)
+        Me.Button2.Location = New System.Drawing.Point(1, 165)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(865, 24)
         Me.Button2.TabIndex = 21
@@ -97,7 +98,7 @@ Partial Class Form2
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.White
-        Me.Panel5.Location = New System.Drawing.Point(1, 242)
+        Me.Panel5.Location = New System.Drawing.Point(2, 269)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(865, 51)
         Me.Panel5.TabIndex = 24
@@ -105,7 +106,7 @@ Partial Class Form2
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.White
-        Me.Panel2.Location = New System.Drawing.Point(2, 168)
+        Me.Panel2.Location = New System.Drawing.Point(2, 195)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(864, 39)
         Me.Panel2.TabIndex = 25
@@ -113,7 +114,7 @@ Partial Class Form2
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(2, 213)
+        Me.Button4.Location = New System.Drawing.Point(1, 240)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(865, 23)
         Me.Button4.TabIndex = 27
@@ -123,7 +124,7 @@ Partial Class Form2
         'Button5
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(1, 299)
+        Me.Button5.Location = New System.Drawing.Point(1, 326)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(865, 23)
         Me.Button5.TabIndex = 28
@@ -133,7 +134,7 @@ Partial Class Form2
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.White
-        Me.Panel3.Location = New System.Drawing.Point(1, 328)
+        Me.Panel3.Location = New System.Drawing.Point(2, 355)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(867, 101)
         Me.Panel3.TabIndex = 29
@@ -150,7 +151,7 @@ Partial Class Form2
         'Button6
         '
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(2, 435)
+        Me.Button6.Location = New System.Drawing.Point(2, 462)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(866, 23)
         Me.Button6.TabIndex = 30
@@ -160,17 +161,28 @@ Partial Class Form2
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(2, 464)
+        Me.Panel6.Location = New System.Drawing.Point(3, 491)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(865, 101)
         Me.Panel6.TabIndex = 31
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(279, 29)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(286, 31)
+        Me.Label3.TabIndex = 33
+        Me.Label3.Text = "let's dispatch this flignt"
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(867, 566)
+        Me.ClientSize = New System.Drawing.Size(866, 590)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Button6)
@@ -211,4 +223,5 @@ Partial Class Form2
     Friend WithEvents Timer5 As Timer
     Friend WithEvents Button6 As Button
     Friend WithEvents Panel6 As Panel
+    Friend WithEvents Label3 As Label
 End Class
