@@ -43,6 +43,7 @@ Partial Class Form2
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.logout = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -70,7 +71,7 @@ Partial Class Form2
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(2, 70)
+        Me.Button1.Location = New System.Drawing.Point(1, 79)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(887, 32)
         Me.Button1.TabIndex = 19
@@ -80,7 +81,7 @@ Partial Class Form2
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Location = New System.Drawing.Point(4, 108)
+        Me.Panel1.Location = New System.Drawing.Point(1, 117)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(865, 42)
         Me.Panel1.TabIndex = 20
@@ -143,7 +144,7 @@ Partial Class Form2
         '
         Me.Button7.Location = New System.Drawing.Point(2, 0)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(159, 45)
+        Me.Button7.Size = New System.Drawing.Size(253, 39)
         Me.Button7.TabIndex = 32
         Me.Button7.Text = "Search for Route"
         Me.Button7.UseVisualStyleBackColor = True
@@ -176,12 +177,22 @@ Partial Class Form2
         Me.Label3.TabIndex = 33
         Me.Label3.Text = "let's dispatch this flignt"
         '
+        'logout
+        '
+        Me.logout.Location = New System.Drawing.Point(3, 39)
+        Me.logout.Name = "logout"
+        Me.logout.Size = New System.Drawing.Size(252, 34)
+        Me.logout.TabIndex = 34
+        Me.logout.Text = "logout"
+        Me.logout.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.ClientSize = New System.Drawing.Size(866, 590)
+        Me.Controls.Add(Me.logout)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Panel6)
@@ -224,4 +235,5 @@ Partial Class Form2
     Friend WithEvents Button6 As Button
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Label3 As Label
+    Friend WithEvents logout As Button
 End Class

@@ -8,7 +8,19 @@
 
     End Sub
 
-    Friend Function stringtext1() As String
-        Throw New NotImplementedException()
-    End Function
+
+
+
+
+
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub logout_Click(sender As Object, e As EventArgs) Handles logout.Click
+        Form1.Show()
+        Me.Close()
+
+    End Sub
 End Class
