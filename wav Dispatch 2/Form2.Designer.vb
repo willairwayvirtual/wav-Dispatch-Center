@@ -103,7 +103,7 @@ Partial Class Form2
         '
         Me.Button72.Location = New System.Drawing.Point(2, 0)
         Me.Button72.Name = "Button72"
-        Me.Button72.Size = New System.Drawing.Size(253, 39)
+        Me.Button72.Size = New System.Drawing.Size(253, 47)
         Me.Button72.TabIndex = 32
         Me.Button72.Text = "Search for Route"
         Me.Button72.UseVisualStyleBackColor = True
