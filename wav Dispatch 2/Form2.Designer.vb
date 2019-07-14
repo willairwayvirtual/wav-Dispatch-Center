@@ -86,9 +86,9 @@ Partial Class Form2
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Silver
-        Me.Panel2.Location = New System.Drawing.Point(1, 204)
+        Me.Panel2.Location = New System.Drawing.Point(1, 195)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(864, 46)
+        Me.Panel2.Size = New System.Drawing.Size(864, 55)
         Me.Panel2.TabIndex = 25
         '
         'Panel3
@@ -137,7 +137,7 @@ Partial Class Form2
         '
         'fliginfo
         '
-        Me.fliginfo.BackColor = System.Drawing.Color.Silver
+        Me.fliginfo.BackColor = System.Drawing.Color.DimGray
         Me.fliginfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.fliginfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fliginfo.ForeColor = System.Drawing.Color.DarkRed
@@ -150,7 +150,7 @@ Partial Class Form2
         '
         'AircraftType
         '
-        Me.AircraftType.BackColor = System.Drawing.Color.Silver
+        Me.AircraftType.BackColor = System.Drawing.Color.DimGray
         Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AircraftType.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
@@ -163,7 +163,7 @@ Partial Class Form2
         '
         'PAYLOAD
         '
-        Me.PAYLOAD.BackColor = System.Drawing.Color.Silver
+        Me.PAYLOAD.BackColor = System.Drawing.Color.DimGray
         Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PAYLOAD.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
@@ -176,7 +176,7 @@ Partial Class Form2
         '
         'Route
         '
-        Me.Route.BackColor = System.Drawing.Color.Silver
+        Me.Route.BackColor = System.Drawing.Color.DimGray
         Me.Route.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
@@ -189,7 +189,7 @@ Partial Class Form2
         '
         'alternates
         '
-        Me.alternates.BackColor = System.Drawing.Color.Silver
+        Me.alternates.BackColor = System.Drawing.Color.DimGray
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
