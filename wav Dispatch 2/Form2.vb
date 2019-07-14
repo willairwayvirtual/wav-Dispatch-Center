@@ -1,7 +1,7 @@
 ﻿Public Class Form2
 
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button72.Click
         Form3.Show()
         Me.Close()
 

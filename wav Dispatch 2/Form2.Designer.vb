@@ -30,7 +30,7 @@ Partial Class Form2
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button72 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
@@ -99,14 +99,14 @@ Partial Class Form2
         Me.Panel3.Size = New System.Drawing.Size(867, 93)
         Me.Panel3.TabIndex = 29
         '
-        'Button7
+        'Button72
         '
-        Me.Button7.Location = New System.Drawing.Point(2, 0)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(253, 39)
-        Me.Button7.TabIndex = 32
-        Me.Button7.Text = "Search for Route"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button72.Location = New System.Drawing.Point(2, 0)
+        Me.Button72.Name = "Button72"
+        Me.Button72.Size = New System.Drawing.Size(253, 39)
+        Me.Button72.TabIndex = 32
+        Me.Button72.Text = "Search for Route"
+        Me.Button72.UseVisualStyleBackColor = True
         '
         'Panel6
         '
@@ -213,7 +213,7 @@ Partial Class Form2
         Me.Controls.Add(Me.fliginfo)
         Me.Controls.Add(Me.logout)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button72)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
@@ -236,7 +236,7 @@ Partial Class Form2
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents Button7 As Button
+    Friend WithEvents Button72 As Button
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Timer3 As Timer
