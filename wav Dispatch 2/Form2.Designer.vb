@@ -71,7 +71,7 @@ Partial Class Form2
         '
         Me.Button72.Location = New System.Drawing.Point(657, 0)
         Me.Button72.Name = "Button72"
-        Me.Button72.Size = New System.Drawing.Size(208, 34)
+        Me.Button72.Size = New System.Drawing.Size(225, 60)
         Me.Button72.TabIndex = 32
         Me.Button72.Text = "Search for Route"
         Me.Button72.UseVisualStyleBackColor = True
@@ -96,9 +96,9 @@ Partial Class Form2
         '
         'logout
         '
-        Me.logout.Location = New System.Drawing.Point(4, 0)
+        Me.logout.Location = New System.Drawing.Point(-6, 0)
         Me.logout.Name = "logout"
-        Me.logout.Size = New System.Drawing.Size(252, 34)
+        Me.logout.Size = New System.Drawing.Size(262, 60)
         Me.logout.TabIndex = 34
         Me.logout.Text = "logout"
         Me.logout.UseVisualStyleBackColor = True

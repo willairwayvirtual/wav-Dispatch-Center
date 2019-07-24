@@ -27,4 +27,12 @@
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub fliginfo_MouseMove(sender As Object, e As MouseEventArgs) Handles fliginfo.MouseMove
+
+    End Sub
+
+    Private Sub fliginfo_MouseLeave(sender As Object, e As EventArgs) Handles fliginfo.MouseLeave
+
+    End Sub
 End Class
