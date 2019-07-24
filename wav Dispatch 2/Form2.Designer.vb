@@ -111,7 +111,7 @@ Partial Class Form2
         Me.fliginfo.ForeColor = System.Drawing.Color.DarkRed
         Me.fliginfo.Location = New System.Drawing.Point(4, 63)
         Me.fliginfo.Name = "fliginfo"
-        Me.fliginfo.Size = New System.Drawing.Size(862, 30)
+        Me.fliginfo.Size = New System.Drawing.Size(878, 30)
         Me.fliginfo.TabIndex = 35
         Me.fliginfo.Text = "fliginfo"
         Me.fliginfo.UseVisualStyleBackColor = False
@@ -161,9 +161,9 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(6, 469)
+        Me.alternates.Location = New System.Drawing.Point(0, 469)
         Me.alternates.Name = "alternates"
-        Me.alternates.Size = New System.Drawing.Size(867, 38)
+        Me.alternates.Size = New System.Drawing.Size(873, 38)
         Me.alternates.TabIndex = 39
         Me.alternates.Text = "alternates"
         Me.alternates.UseVisualStyleBackColor = False
@@ -173,15 +173,15 @@ Partial Class Form2
         Me.Panel1.BackColor = System.Drawing.Color.Silver
         Me.Panel1.Location = New System.Drawing.Point(1, 402)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(866, 61)
+        Me.Panel1.Size = New System.Drawing.Size(872, 61)
         Me.Panel1.TabIndex = 40
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Silver
-        Me.Panel2.Location = New System.Drawing.Point(6, 296)
+        Me.Panel2.Location = New System.Drawing.Point(0, 296)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(866, 61)
+        Me.Panel2.Size = New System.Drawing.Size(882, 61)
         Me.Panel2.TabIndex = 41
         '
         'Panel3
@@ -205,7 +205,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(878, 653)
+        Me.ClientSize = New System.Drawing.Size(878, 617)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
