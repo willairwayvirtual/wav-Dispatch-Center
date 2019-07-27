@@ -44,6 +44,7 @@ Partial Class Form2
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -81,7 +82,7 @@ Partial Class Form2
         Me.Panel6.BackColor = System.Drawing.Color.Silver
         Me.Panel6.Location = New System.Drawing.Point(4, 558)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(881, 98)
+        Me.Panel6.Size = New System.Drawing.Size(881, 85)
         Me.Panel6.TabIndex = 31
         '
         'Label3
@@ -200,12 +201,24 @@ Partial Class Form2
         Me.Panel4.Size = New System.Drawing.Size(882, 50)
         Me.Panel4.TabIndex = 43
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(1, 649)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(881, 55)
+        Me.Button1.TabIndex = 44
+        Me.Button1.Text = "complete flight"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(878, 684)
+        Me.ClientSize = New System.Drawing.Size(878, 701)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
@@ -250,4 +263,5 @@ Partial Class Form2
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel4 As Panel
+    Friend WithEvents Button1 As Button
 End Class

@@ -35,4 +35,8 @@
     Private Sub fliginfo_MouseLeave(sender As Object, e As EventArgs) Handles fliginfo.MouseLeave
 
     End Sub
+
+    Private Sub fliginfo_Click(sender As Object, e As EventArgs) Handles fliginfo.Click
+
+    End Sub
 End Class
