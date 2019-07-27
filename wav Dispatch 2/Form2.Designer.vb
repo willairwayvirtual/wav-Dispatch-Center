@@ -81,7 +81,7 @@ Partial Class Form2
         Me.Panel6.BackColor = System.Drawing.Color.Silver
         Me.Panel6.Location = New System.Drawing.Point(4, 558)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(881, 61)
+        Me.Panel6.Size = New System.Drawing.Size(881, 98)
         Me.Panel6.TabIndex = 31
         '
         'Label3
@@ -205,7 +205,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(878, 658)
+        Me.ClientSize = New System.Drawing.Size(878, 684)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
