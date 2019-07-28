@@ -45,6 +45,11 @@ Partial Class Form2
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Button12 = New System.Windows.Forms.Button()
+        Me.Panel6.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -80,9 +85,10 @@ Partial Class Form2
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.Silver
-        Me.Panel6.Location = New System.Drawing.Point(1, 558)
+        Me.Panel6.Controls.Add(Me.alternates)
+        Me.Panel6.Location = New System.Drawing.Point(1, 515)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(884, 85)
+        Me.Panel6.Size = New System.Drawing.Size(895, 53)
         Me.Panel6.TabIndex = 31
         '
         'Label3
@@ -108,11 +114,11 @@ Partial Class Form2
         '
         Me.fliginfo.BackColor = System.Drawing.Color.DimGray
         Me.fliginfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.fliginfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fliginfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fliginfo.ForeColor = System.Drawing.Color.DarkRed
-        Me.fliginfo.Location = New System.Drawing.Point(-6, 63)
+        Me.fliginfo.Location = New System.Drawing.Point(0, 1)
         Me.fliginfo.Name = "fliginfo"
-        Me.fliginfo.Size = New System.Drawing.Size(888, 30)
+        Me.fliginfo.Size = New System.Drawing.Size(888, 36)
         Me.fliginfo.TabIndex = 35
         Me.fliginfo.Text = "fliginfo"
         Me.fliginfo.UseVisualStyleBackColor = False
@@ -123,7 +129,7 @@ Partial Class Form2
         Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AircraftType.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
-        Me.AircraftType.Location = New System.Drawing.Point(1, 155)
+        Me.AircraftType.Location = New System.Drawing.Point(22, 3)
         Me.AircraftType.Name = "AircraftType"
         Me.AircraftType.Size = New System.Drawing.Size(888, 31)
         Me.AircraftType.TabIndex = 36
@@ -136,9 +142,9 @@ Partial Class Form2
         Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PAYLOAD.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
-        Me.PAYLOAD.Location = New System.Drawing.Point(0, 259)
+        Me.PAYLOAD.Location = New System.Drawing.Point(-3, 3)
         Me.PAYLOAD.Name = "PAYLOAD"
-        Me.PAYLOAD.Size = New System.Drawing.Size(882, 31)
+        Me.PAYLOAD.Size = New System.Drawing.Size(882, 38)
         Me.PAYLOAD.TabIndex = 37
         Me.PAYLOAD.Text = "PAYLOAD"
         Me.PAYLOAD.UseVisualStyleBackColor = False
@@ -149,9 +155,9 @@ Partial Class Form2
         Me.Route.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
-        Me.Route.Location = New System.Drawing.Point(0, 363)
+        Me.Route.Location = New System.Drawing.Point(-1, 3)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(882, 33)
+        Me.Route.Size = New System.Drawing.Size(882, 39)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -162,9 +168,9 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(0, 514)
+        Me.alternates.Location = New System.Drawing.Point(-1, 3)
         Me.alternates.Name = "alternates"
-        Me.alternates.Size = New System.Drawing.Size(889, 38)
+        Me.alternates.Size = New System.Drawing.Size(922, 47)
         Me.alternates.TabIndex = 39
         Me.alternates.Text = "alternates"
         Me.alternates.UseVisualStyleBackColor = False
@@ -172,40 +178,44 @@ Partial Class Form2
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Silver
+        Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(1, 402)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(881, 106)
+        Me.Panel1.Size = New System.Drawing.Size(881, 45)
         Me.Panel1.TabIndex = 40
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Silver
-        Me.Panel2.Location = New System.Drawing.Point(0, 296)
+        Me.Panel2.Controls.Add(Me.PAYLOAD)
+        Me.Panel2.Location = New System.Drawing.Point(0, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(882, 61)
+        Me.Panel2.Size = New System.Drawing.Size(882, 44)
         Me.Panel2.TabIndex = 41
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Silver
+        Me.Panel3.Controls.Add(Me.AircraftType)
         Me.Panel3.Location = New System.Drawing.Point(-21, 192)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(903, 61)
+        Me.Panel3.Size = New System.Drawing.Size(903, 39)
         Me.Panel3.TabIndex = 42
         '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
-        Me.Panel4.Location = New System.Drawing.Point(0, 99)
+        Me.Panel4.Controls.Add(Me.fliginfo)
+        Me.Panel4.Location = New System.Drawing.Point(0, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(882, 50)
+        Me.Panel4.Size = New System.Drawing.Size(882, 37)
         Me.Panel4.TabIndex = 43
         '
         'Button12
         '
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
-        Me.Button12.Location = New System.Drawing.Point(1, 649)
+        Me.Button12.Location = New System.Drawing.Point(1, 655)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(881, 55)
         Me.Button12.TabIndex = 44
@@ -223,11 +233,6 @@ Partial Class Form2
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.alternates)
-        Me.Controls.Add(Me.Route)
-        Me.Controls.Add(Me.PAYLOAD)
-        Me.Controls.Add(Me.AircraftType)
-        Me.Controls.Add(Me.fliginfo)
         Me.Controls.Add(Me.logout)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button72)
@@ -238,6 +243,11 @@ Partial Class Form2
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form2"
         Me.Text = "Form2"
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
