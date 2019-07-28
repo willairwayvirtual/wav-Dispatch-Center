@@ -77,6 +77,9 @@ Partial Class Form2
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -152,11 +155,11 @@ Partial Class Form2
         Me.fliginfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.fliginfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fliginfo.ForeColor = System.Drawing.Color.DarkRed
-        Me.fliginfo.Location = New System.Drawing.Point(-22, 0)
+        Me.fliginfo.Location = New System.Drawing.Point(2, 0)
         Me.fliginfo.Name = "fliginfo"
-        Me.fliginfo.Size = New System.Drawing.Size(997, 32)
+        Me.fliginfo.Size = New System.Drawing.Size(960, 30)
         Me.fliginfo.TabIndex = 35
-        Me.fliginfo.Text = "fliginfo"
+        Me.fliginfo.Text = "Flight Info"
         Me.fliginfo.UseVisualStyleBackColor = False
         '
         'AircraftType
@@ -257,6 +260,10 @@ Partial Class Form2
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.TextBox6)
+        Me.Panel4.Controls.Add(Me.TextBox5)
+        Me.Panel4.Controls.Add(Me.TextBox4)
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Controls.Add(Me.Label15)
         Me.Panel4.Controls.Add(Me.Label14)
@@ -272,7 +279,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.fliginfo)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(963, 99)
+        Me.Panel4.Size = New System.Drawing.Size(960, 80)
         Me.Panel4.TabIndex = 43
         '
         'Button12
@@ -300,7 +307,7 @@ Partial Class Form2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(52, 35)
+        Me.Label5.Location = New System.Drawing.Point(67, 34)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 19)
         Me.Label5.TabIndex = 37
@@ -310,7 +317,7 @@ Partial Class Form2
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(101, 35)
+        Me.Label6.Location = New System.Drawing.Point(118, 34)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(61, 19)
         Me.Label6.TabIndex = 38
@@ -320,7 +327,7 @@ Partial Class Form2
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(168, 36)
+        Me.Label7.Location = New System.Drawing.Point(191, 34)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(35, 19)
         Me.Label7.TabIndex = 39
@@ -330,7 +337,7 @@ Partial Class Form2
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(217, 35)
+        Me.Label8.Location = New System.Drawing.Point(244, 34)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(28, 19)
         Me.Label8.TabIndex = 40
@@ -601,6 +608,27 @@ Partial Class Form2
         Me.Label13.TabIndex = 57
         Me.Label13.Text = "Fuel"
         '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(4, 56)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(50, 20)
+        Me.TextBox4.TabIndex = 49
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(65, 56)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(50, 20)
+        Me.TextBox5.TabIndex = 50
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(122, 56)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(50, 20)
+        Me.TextBox6.TabIndex = 51
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -690,4 +718,7 @@ Partial Class Form2
     Friend WithEvents Label44 As Label
     Friend WithEvents Label43 As Label
     Friend WithEvents Label13 As Label
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox4 As TextBox
 End Class
