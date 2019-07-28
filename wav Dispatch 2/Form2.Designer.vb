@@ -136,7 +136,7 @@ Partial Class Form2
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(969, 139)
+        Me.Panel6.Size = New System.Drawing.Size(969, 128)
         Me.Panel6.TabIndex = 31
         '
         'Label3
@@ -303,9 +303,9 @@ Partial Class Form2
         '
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
-        Me.Button12.Location = New System.Drawing.Point(0, 640)
+        Me.Button12.Location = New System.Drawing.Point(0, 625)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(967, 50)
+        Me.Button12.Size = New System.Drawing.Size(976, 50)
         Me.Button12.TabIndex = 44
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
@@ -673,16 +673,16 @@ Partial Class Form2
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(0, 73)
+        Me.TextBox3.Location = New System.Drawing.Point(0, 58)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(122, 51)
+        Me.TextBox3.Size = New System.Drawing.Size(122, 66)
         Me.TextBox3.TabIndex = 42
         '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(129, 68)
+        Me.TextBox2.Location = New System.Drawing.Point(129, 58)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(846, 68)
@@ -711,7 +711,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(987, 698)
+        Me.ClientSize = New System.Drawing.Size(987, 681)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
