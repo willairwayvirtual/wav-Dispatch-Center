@@ -87,6 +87,8 @@ Partial Class Form2
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -127,6 +129,8 @@ Partial Class Form2
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.Silver
+        Me.Panel6.Controls.Add(Me.Label44)
+        Me.Panel6.Controls.Add(Me.Label43)
         Me.Panel6.Controls.Add(Me.TextBox2)
         Me.Panel6.Controls.Add(Me.TextBox3)
         Me.Panel6.Controls.Add(Me.alternates)
@@ -669,7 +673,7 @@ Partial Class Form2
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(8, 56)
+        Me.TextBox3.Location = New System.Drawing.Point(0, 73)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(122, 51)
@@ -678,11 +682,29 @@ Partial Class Form2
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(135, 56)
+        Me.TextBox2.Location = New System.Drawing.Point(129, 68)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(846, 68)
         Me.TextBox2.TabIndex = 43
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(11, 42)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(45, 13)
+        Me.Label43.TabIndex = 44
+        Me.Label43.Text = "Label43"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(126, 42)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(45, 13)
+        Me.Label44.TabIndex = 45
+        Me.Label44.Text = "Label44"
         '
         'Form2
         '
@@ -783,4 +805,6 @@ Partial Class Form2
     Friend WithEvents Label4 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label43 As Label
 End Class
