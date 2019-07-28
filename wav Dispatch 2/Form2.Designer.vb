@@ -85,6 +85,7 @@ Partial Class Form2
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -97,20 +98,20 @@ Partial Class Form2
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Silver
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(411, 9)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(455, 14)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 15)
+        Me.Label1.Size = New System.Drawing.Size(0, 29)
         Me.Label1.TabIndex = 17
         Me.Label1.UseMnemonic = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(279, -2)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(323, 3)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(272, 62)
+        Me.Label2.Size = New System.Drawing.Size(239, 58)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = " Dispatch a new flignt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
         '
@@ -127,19 +128,20 @@ Partial Class Form2
         '
         Me.Panel6.BackColor = System.Drawing.Color.Silver
         Me.Panel6.Controls.Add(Me.TextBox2)
+        Me.Panel6.Controls.Add(Me.TextBox3)
         Me.Panel6.Controls.Add(Me.alternates)
-        Me.Panel6.Location = New System.Drawing.Point(1, 501)
+        Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(962, 123)
+        Me.Panel6.Size = New System.Drawing.Size(969, 139)
         Me.Panel6.TabIndex = 31
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(279, 29)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(323, 34)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(286, 31)
+        Me.Label3.Size = New System.Drawing.Size(251, 29)
         Me.Label3.TabIndex = 33
         Me.Label3.Text = "let's dispatch this flignt"
         '
@@ -184,7 +186,7 @@ Partial Class Form2
         Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PAYLOAD.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
-        Me.PAYLOAD.Location = New System.Drawing.Point(-6, 3)
+        Me.PAYLOAD.Location = New System.Drawing.Point(-1, 3)
         Me.PAYLOAD.Name = "PAYLOAD"
         Me.PAYLOAD.Size = New System.Drawing.Size(969, 38)
         Me.PAYLOAD.TabIndex = 37
@@ -210,7 +212,7 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(0, 0)
+        Me.alternates.Location = New System.Drawing.Point(7, 3)
         Me.alternates.Name = "alternates"
         Me.alternates.Size = New System.Drawing.Size(983, 36)
         Me.alternates.TabIndex = 39
@@ -244,7 +246,7 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.Label41)
         Me.Panel2.Controls.Add(Me.Label42)
         Me.Panel2.Controls.Add(Me.PAYLOAD)
-        Me.Panel2.Location = New System.Drawing.Point(0, 256)
+        Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(963, 108)
         Me.Panel2.TabIndex = 41
@@ -297,9 +299,9 @@ Partial Class Form2
         '
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
-        Me.Button12.Location = New System.Drawing.Point(-6, 617)
+        Me.Button12.Location = New System.Drawing.Point(0, 640)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(982, 55)
+        Me.Button12.Size = New System.Drawing.Size(967, 50)
         Me.Button12.TabIndex = 44
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
@@ -664,21 +666,30 @@ Partial Class Form2
         Me.TextBox1.Size = New System.Drawing.Size(991, 86)
         Me.TextBox1.TabIndex = 39
         '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(8, 56)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(122, 51)
+        Me.TextBox3.TabIndex = 42
+        '
         'TextBox2
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(-1, 37)
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(135, 56)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(976, 86)
-        Me.TextBox2.TabIndex = 41
+        Me.TextBox2.Size = New System.Drawing.Size(846, 68)
+        Me.TextBox2.TabIndex = 43
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(966, 675)
+        Me.ClientSize = New System.Drawing.Size(987, 698)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
@@ -770,5 +781,6 @@ Partial Class Form2
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
 End Class
