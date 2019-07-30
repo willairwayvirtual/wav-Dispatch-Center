@@ -135,7 +135,7 @@ Partial Class Form2
         '
         Me.Button72.Location = New System.Drawing.Point(657, 0)
         Me.Button72.Name = "Button72"
-        Me.Button72.Size = New System.Drawing.Size(307, 60)
+        Me.Button72.Size = New System.Drawing.Size(345, 60)
         Me.Button72.TabIndex = 32
         Me.Button72.Text = "Search for Route"
         Me.Button72.UseVisualStyleBackColor = True
@@ -575,6 +575,7 @@ Partial Class Form2
         '
         'ComboBox1
         '
+        Me.ComboBox1.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
@@ -622,7 +623,7 @@ Partial Class Form2
         '
         Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"kfbl", "eglll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "lebl", "phnl", "ksfo", "kden", "yppy", "eglk"})
+        Me.ComboBox4.Items.AddRange(New Object() {"kfbl", "eglll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "lebl", "phnl", "ksfo", "kden", "yppy", "eglk", "kmco"})
         Me.ComboBox4.Location = New System.Drawing.Point(178, 57)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(105, 28)
@@ -645,10 +646,12 @@ Partial Class Form2
         '
         'ComboBox3
         '
+        Me.ComboBox3.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.ForeColor = System.Drawing.SystemColors.WindowText
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"i -  International ", "do- omestic"})
+        Me.ComboBox3.Items.AddRange(New Object() {"i -  International ", "do- omestic", "s-Scheduled", "c-Charter"})
         Me.ComboBox3.Location = New System.Drawing.Point(675, 56)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(124, 28)
@@ -656,7 +659,7 @@ Partial Class Form2
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(599, 58)
+        Me.TextBox10.Location = New System.Drawing.Point(604, 61)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(50, 20)
         Me.TextBox10.TabIndex = 57
@@ -670,7 +673,7 @@ Partial Class Form2
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(470, 61)
+        Me.TextBox8.Location = New System.Drawing.Point(470, 63)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(52, 20)
         Me.TextBox8.TabIndex = 55
@@ -838,7 +841,7 @@ Partial Class Form2
         '
         Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk"})
+        Me.ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk", "kmco"})
         Me.ComboBox5.Location = New System.Drawing.Point(285, 58)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(102, 28)
