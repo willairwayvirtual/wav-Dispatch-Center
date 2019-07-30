@@ -580,9 +580,9 @@ Partial Class Form2
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"777-er", "747-400", "787-9", "777-f", "747-400f", "PA-28 "})
-        Me.ComboBox1.Location = New System.Drawing.Point(7, 57)
+        Me.ComboBox1.Location = New System.Drawing.Point(16, 52)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(163, 33)
+        Me.ComboBox1.Size = New System.Drawing.Size(107, 33)
         Me.ComboBox1.TabIndex = 52
         '
         'Panel4
@@ -628,7 +628,7 @@ Partial Class Form2
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(105, 28)
         Me.ComboBox4.TabIndex = 61
-        Me.ComboBox4.Text = "Dep"
+        Me.ComboBox4.Text = "        Dep"
         '
         'TextBox12
         '
@@ -849,7 +849,7 @@ Partial Class Form2
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(156, 28)
         Me.ComboBox5.TabIndex = 62
-        Me.ComboBox5.Text = "Arr"
+        Me.ComboBox5.Text = "          Arr"
         '
         'TextBox25
         '
