@@ -135,7 +135,7 @@ Partial Class Form2
         '
         Me.Button72.Location = New System.Drawing.Point(657, 0)
         Me.Button72.Name = "Button72"
-        Me.Button72.Size = New System.Drawing.Size(345, 60)
+        Me.Button72.Size = New System.Drawing.Size(432, 60)
         Me.Button72.TabIndex = 32
         Me.Button72.Text = "Search for Route"
         Me.Button72.UseVisualStyleBackColor = True
@@ -785,9 +785,9 @@ Partial Class Form2
         Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(306, 32)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(28, 19)
+        Me.Label8.Size = New System.Drawing.Size(36, 19)
         Me.Label8.TabIndex = 40
-        Me.Label8.Text = "Arr"
+        Me.Label8.Text = "Arrp"
         '
         'Label7
         '
@@ -849,7 +849,7 @@ Partial Class Form2
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(156, 28)
         Me.ComboBox5.TabIndex = 62
-        Me.ComboBox5.Text = "          Arr"
+        Me.ComboBox5.Text = "          Arrp"
         '
         'TextBox25
         '
