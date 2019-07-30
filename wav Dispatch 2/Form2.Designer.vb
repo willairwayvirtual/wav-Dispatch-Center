@@ -763,7 +763,7 @@ Partial Class Form2
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(515, 32)
+        Me.Label10.Location = New System.Drawing.Point(528, 35)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(45, 20)
         Me.Label10.TabIndex = 42
