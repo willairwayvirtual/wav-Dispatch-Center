@@ -47,6 +47,13 @@ Partial Class Form2
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
@@ -57,13 +64,27 @@ Partial Class Form2
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
@@ -80,28 +101,8 @@ Partial Class Form2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.TextBox25 = New System.Windows.Forms.TextBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -228,7 +229,7 @@ Partial Class Form2
         Me.fliginfo.ForeColor = System.Drawing.Color.DarkRed
         Me.fliginfo.Location = New System.Drawing.Point(2, 0)
         Me.fliginfo.Name = "fliginfo"
-        Me.fliginfo.Size = New System.Drawing.Size(960, 30)
+        Me.fliginfo.Size = New System.Drawing.Size(998, 30)
         Me.fliginfo.TabIndex = 35
         Me.fliginfo.Text = "Flight Info"
         Me.fliginfo.UseVisualStyleBackColor = False
@@ -294,6 +295,7 @@ Partial Class Form2
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Silver
+        Me.Panel2.Controls.Add(Me.TextBox25)
         Me.Panel2.Controls.Add(Me.TextBox24)
         Me.Panel2.Controls.Add(Me.TextBox23)
         Me.Panel2.Controls.Add(Me.TextBox22)
@@ -315,6 +317,55 @@ Partial Class Form2
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(831, 108)
         Me.Panel2.TabIndex = 41
+        '
+        'TextBox24
+        '
+        Me.TextBox24.Location = New System.Drawing.Point(562, 68)
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New System.Drawing.Size(93, 20)
+        Me.TextBox24.TabIndex = 64
+        '
+        'TextBox23
+        '
+        Me.TextBox23.Location = New System.Drawing.Point(441, 68)
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox23.TabIndex = 63
+        '
+        'TextBox22
+        '
+        Me.TextBox22.Location = New System.Drawing.Point(364, 67)
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox22.TabIndex = 62
+        '
+        'TextBox21
+        '
+        Me.TextBox21.Location = New System.Drawing.Point(225, 67)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(125, 20)
+        Me.TextBox21.TabIndex = 61
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Location = New System.Drawing.Point(151, 67)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox20.TabIndex = 60
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Location = New System.Drawing.Point(77, 67)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox19.TabIndex = 59
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Location = New System.Drawing.Point(-1, 67)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox18.TabIndex = 58
         '
         'Label13
         '
@@ -427,6 +478,41 @@ Partial Class Form2
         Me.Panel3.Size = New System.Drawing.Size(898, 88)
         Me.Panel3.TabIndex = 42
         '
+        'TextBox17
+        '
+        Me.TextBox17.Location = New System.Drawing.Point(670, 57)
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(104, 20)
+        Me.TextBox17.TabIndex = 59
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Location = New System.Drawing.Point(538, 58)
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(93, 20)
+        Me.TextBox16.TabIndex = 58
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Location = New System.Drawing.Point(349, 57)
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(93, 20)
+        Me.TextBox15.TabIndex = 57
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Location = New System.Drawing.Point(264, 58)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox14.TabIndex = 56
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Location = New System.Drawing.Point(184, 58)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox13.TabIndex = 55
+        '
         'Label24
         '
         Me.Label24.AutoSize = True
@@ -441,7 +527,7 @@ Partial Class Form2
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(436, 34)
+        Me.Label25.Location = New System.Drawing.Point(533, 34)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(98, 20)
         Me.Label25.TabIndex = 53
@@ -451,7 +537,7 @@ Partial Class Form2
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(304, 34)
+        Me.Label26.Location = New System.Drawing.Point(366, 34)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(51, 20)
         Me.Label26.TabIndex = 52
@@ -461,7 +547,7 @@ Partial Class Form2
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(222, 34)
+        Me.Label27.Location = New System.Drawing.Point(279, 34)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(45, 20)
         Me.Label27.TabIndex = 51
@@ -471,7 +557,7 @@ Partial Class Form2
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(140, 34)
+        Me.Label28.Location = New System.Drawing.Point(198, 34)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(39, 20)
         Me.Label28.TabIndex = 50
@@ -481,16 +567,28 @@ Partial Class Form2
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(3, 34)
+        Me.Label29.Location = New System.Drawing.Point(19, 34)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(94, 20)
         Me.Label29.TabIndex = 49
         Me.Label29.Text = "AircraftType"
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"777-er", "747-400", "787-9", "777-f", "747-400f", "PA-28 "})
+        Me.ComboBox1.Location = New System.Drawing.Point(7, 57)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(163, 33)
+        Me.ComboBox1.TabIndex = 52
+        '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.ComboBox5)
         Me.Panel4.Controls.Add(Me.ComboBox4)
         Me.Panel4.Controls.Add(Me.TextBox12)
         Me.Panel4.Controls.Add(Me.TextBox11)
@@ -499,7 +597,6 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.TextBox9)
         Me.Panel4.Controls.Add(Me.TextBox8)
         Me.Panel4.Controls.Add(Me.TextBox7)
-        Me.Panel4.Controls.Add(Me.ComboBox2)
         Me.Panel4.Controls.Add(Me.TextBox6)
         Me.Panel4.Controls.Add(Me.TextBox5)
         Me.Panel4.Controls.Add(Me.TextBox4)
@@ -518,8 +615,72 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.fliginfo)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(960, 90)
+        Me.Panel4.Size = New System.Drawing.Size(983, 90)
         Me.Panel4.TabIndex = 43
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"kfbl", "eglll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "lebl", "phnl", "ksfo", "kden", "yppy", "eglk"})
+        Me.ComboBox4.Location = New System.Drawing.Point(178, 57)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(105, 28)
+        Me.ComboBox4.TabIndex = 61
+        Me.ComboBox4.Text = "Dep"
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Location = New System.Drawing.Point(915, 56)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(63, 20)
+        Me.TextBox12.TabIndex = 60
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Location = New System.Drawing.Point(805, 61)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(95, 20)
+        Me.TextBox11.TabIndex = 59
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"i -  International ", "do- omestic"})
+        Me.ComboBox3.Location = New System.Drawing.Point(675, 56)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(124, 28)
+        Me.ComboBox3.TabIndex = 58
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Location = New System.Drawing.Point(599, 58)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(50, 20)
+        Me.TextBox10.TabIndex = 57
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(539, 61)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(50, 20)
+        Me.TextBox9.TabIndex = 56
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(470, 61)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(52, 20)
+        Me.TextBox8.TabIndex = 55
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(393, 63)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(70, 20)
+        Me.TextBox7.TabIndex = 54
         '
         'TextBox6
         '
@@ -546,7 +707,7 @@ Partial Class Form2
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(803, 35)
+        Me.Label16.Location = New System.Drawing.Point(933, 32)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(28, 20)
         Me.Label16.TabIndex = 48
@@ -556,7 +717,7 @@ Partial Class Form2
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(711, 35)
+        Me.Label15.Location = New System.Drawing.Point(820, 38)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(35, 20)
         Me.Label15.TabIndex = 47
@@ -566,7 +727,7 @@ Partial Class Form2
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(568, 35)
+        Me.Label14.Location = New System.Drawing.Point(668, 35)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(128, 20)
         Me.Label14.TabIndex = 46
@@ -576,7 +737,7 @@ Partial Class Form2
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(506, 35)
+        Me.Label12.Location = New System.Drawing.Point(604, 31)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(45, 20)
         Me.Label12.TabIndex = 44
@@ -586,7 +747,7 @@ Partial Class Form2
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(447, 35)
+        Me.Label11.Location = New System.Drawing.Point(533, 35)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(56, 20)
         Me.Label11.TabIndex = 43
@@ -596,7 +757,7 @@ Partial Class Form2
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(384, 34)
+        Me.Label10.Location = New System.Drawing.Point(466, 32)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(45, 20)
         Me.Label10.TabIndex = 42
@@ -606,7 +767,7 @@ Partial Class Form2
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(295, 35)
+        Me.Label9.Location = New System.Drawing.Point(393, 38)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(63, 20)
         Me.Label9.TabIndex = 41
@@ -616,7 +777,7 @@ Partial Class Form2
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(244, 34)
+        Me.Label8.Location = New System.Drawing.Point(306, 32)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(28, 19)
         Me.Label8.TabIndex = 40
@@ -673,164 +834,23 @@ Partial Class Form2
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'ComboBox5
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(7, 57)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(86, 21)
-        Me.ComboBox1.TabIndex = 52
+        Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk"})
+        Me.ComboBox5.Location = New System.Drawing.Point(285, 58)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(102, 28)
+        Me.ComboBox5.TabIndex = 62
+        Me.ComboBox5.Text = "Arr"
         '
-        'ComboBox2
+        'TextBox25
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(238, 57)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(48, 21)
-        Me.ComboBox2.TabIndex = 53
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(299, 56)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(50, 20)
-        Me.TextBox7.TabIndex = 54
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(379, 55)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(50, 20)
-        Me.TextBox8.TabIndex = 55
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(440, 55)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(50, 20)
-        Me.TextBox9.TabIndex = 56
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(501, 55)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(50, 20)
-        Me.TextBox10.TabIndex = 57
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(572, 54)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(124, 21)
-        Me.ComboBox3.TabIndex = 58
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(715, 55)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(50, 20)
-        Me.TextBox11.TabIndex = 59
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Location = New System.Drawing.Point(792, 57)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(63, 20)
-        Me.TextBox12.TabIndex = 60
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Location = New System.Drawing.Point(127, 57)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox13.TabIndex = 55
-        '
-        'TextBox14
-        '
-        Me.TextBox14.Location = New System.Drawing.Point(202, 57)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox14.TabIndex = 56
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Location = New System.Drawing.Point(288, 57)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox15.TabIndex = 57
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Location = New System.Drawing.Point(438, 57)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox16.TabIndex = 58
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Location = New System.Drawing.Point(670, 57)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(104, 20)
-        Me.TextBox17.TabIndex = 59
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Location = New System.Drawing.Point(-1, 67)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox18.TabIndex = 58
-        '
-        'TextBox19
-        '
-        Me.TextBox19.Location = New System.Drawing.Point(77, 67)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox19.TabIndex = 59
-        '
-        'TextBox20
-        '
-        Me.TextBox20.Location = New System.Drawing.Point(151, 67)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox20.TabIndex = 60
-        '
-        'TextBox21
-        '
-        Me.TextBox21.Location = New System.Drawing.Point(225, 67)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox21.TabIndex = 61
-        '
-        'TextBox22
-        '
-        Me.TextBox22.Location = New System.Drawing.Point(364, 67)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox22.TabIndex = 62
-        '
-        'TextBox23
-        '
-        Me.TextBox23.Location = New System.Drawing.Point(441, 68)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox23.TabIndex = 63
-        '
-        'TextBox24
-        '
-        Me.TextBox24.Location = New System.Drawing.Point(562, 68)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox24.TabIndex = 64
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"DepArpt", "eglk", "kfbl", "lfbo", "EGLL", "KATL", "KJFK", "eidw", "ypph", "eham", "egfff", "klga", "uudd"})
-        Me.ComboBox4.Location = New System.Drawing.Point(184, 56)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(48, 21)
-        Me.ComboBox4.TabIndex = 61
+        Me.TextBox25.Location = New System.Drawing.Point(695, 71)
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New System.Drawing.Size(93, 20)
+        Me.TextBox25.TabIndex = 65
         '
         'Form2
         '
@@ -944,6 +964,7 @@ Partial Class Form2
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents TextBox25 As TextBox
 End Class
