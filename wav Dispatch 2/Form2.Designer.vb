@@ -282,7 +282,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(1, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(962, 42)
+        Me.Panel1.Size = New System.Drawing.Size(962, 37)
         Me.Panel1.TabIndex = 40
         '
         'Panel2
@@ -835,7 +835,7 @@ Partial Class Form2
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
         Me.Button12.Location = New System.Drawing.Point(0, 625)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(976, 50)
+        Me.Button12.Size = New System.Drawing.Size(1089, 50)
         Me.Button12.TabIndex = 44
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
