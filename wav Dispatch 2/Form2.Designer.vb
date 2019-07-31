@@ -35,8 +35,8 @@ Partial Class Form2
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Route_TextBox2 = New System.Windows.Forms.TextBox()
+        Me.AIRTPOR_TextBox3 = New System.Windows.Forms.TextBox()
         Me.alternates = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.logout = New System.Windows.Forms.Button()
@@ -45,51 +45,49 @@ Partial Class Form2
         Me.PAYLOAD = New System.Windows.Forms.Button()
         Me.Route = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.Fuel_TextBox25 = New System.Windows.Forms.TextBox()
+        Me.max_TextBox24 = New System.Windows.Forms.TextBox()
+        Me.zero_TextBox23 = New System.Windows.Forms.TextBox()
+        Me.cargo_TextBox22 = New System.Windows.Forms.TextBox()
+        Me.baggage_TextBox21 = New System.Windows.Forms.TextBox()
+        Me.infants_TextBox20 = New System.Windows.Forms.TextBox()
+        Me.children_TextBox19 = New System.Windows.Forms.TextBox()
+        Me.aduiltes_TextBox18 = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.lan_TextBox17 = New System.Windows.Forms.TextBox()
+        Me.take_TextBox16 = New System.Windows.Forms.TextBox()
+        Me.cruise_TextBox15 = New System.Windows.Forms.TextBox()
+        Me.climb_TextBox14 = New System.Windows.Forms.TextBox()
+        Me.type_TextBox13 = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.AircraftType_ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Arr__ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.Dep_ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ett_TextBox12 = New System.Windows.Forms.TextBox()
+        Me.dte_TextBox11 = New System.Windows.Forms.TextBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.taxiin_TextBox10 = New System.Windows.Forms.TextBox()
+        Me.taxiout_TextBox9 = New System.Windows.Forms.TextBox()
+        Me.Land_TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Takeoff_TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Callsign_TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Flight_TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Airline_textBox4 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -103,6 +101,7 @@ Partial Class Form2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
+        Me.Route_TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -148,12 +147,12 @@ Partial Class Form2
         Me.Panel6.BackColor = System.Drawing.Color.Silver
         Me.Panel6.Controls.Add(Me.Label44)
         Me.Panel6.Controls.Add(Me.Label43)
-        Me.Panel6.Controls.Add(Me.TextBox2)
-        Me.Panel6.Controls.Add(Me.TextBox3)
+        Me.Panel6.Controls.Add(Me.Route_TextBox2)
+        Me.Panel6.Controls.Add(Me.AIRTPOR_TextBox3)
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(969, 40)
+        Me.Panel6.Size = New System.Drawing.Size(969, 42)
         Me.Panel6.TabIndex = 31
         '
         'Label44
@@ -174,23 +173,23 @@ Partial Class Form2
         Me.Label43.TabIndex = 44
         Me.Label43.Text = "ALTERNATE AIRTPOR"
         '
-        'TextBox2
+        'Route_TextBox2
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(129, 58)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(846, 68)
-        Me.TextBox2.TabIndex = 43
+        Me.Route_TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Route_TextBox2.Location = New System.Drawing.Point(129, 58)
+        Me.Route_TextBox2.Multiline = True
+        Me.Route_TextBox2.Name = "Route_TextBox2"
+        Me.Route_TextBox2.Size = New System.Drawing.Size(846, 68)
+        Me.Route_TextBox2.TabIndex = 43
         '
-        'TextBox3
+        'AIRTPOR_TextBox3
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(0, 58)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(122, 66)
-        Me.TextBox3.TabIndex = 42
+        Me.AIRTPOR_TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AIRTPOR_TextBox3.Location = New System.Drawing.Point(1, 60)
+        Me.AIRTPOR_TextBox3.Multiline = True
+        Me.AIRTPOR_TextBox3.Name = "AIRTPOR_TextBox3"
+        Me.AIRTPOR_TextBox3.Size = New System.Drawing.Size(122, 66)
+        Me.AIRTPOR_TextBox3.TabIndex = 42
         '
         'alternates
         '
@@ -198,7 +197,7 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(7, 3)
+        Me.alternates.Location = New System.Drawing.Point(6, 0)
         Me.alternates.Name = "alternates"
         Me.alternates.Size = New System.Drawing.Size(983, 36)
         Me.alternates.TabIndex = 39
@@ -245,7 +244,7 @@ Partial Class Form2
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
         Me.AircraftType.Location = New System.Drawing.Point(-3, 0)
         Me.AircraftType.Name = "AircraftType"
-        Me.AircraftType.Size = New System.Drawing.Size(923, 31)
+        Me.AircraftType.Size = New System.Drawing.Size(879, 34)
         Me.AircraftType.TabIndex = 36
         Me.AircraftType.Text = "AircraftType"
         Me.AircraftType.UseVisualStyleBackColor = False
@@ -256,9 +255,9 @@ Partial Class Form2
         Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PAYLOAD.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
-        Me.PAYLOAD.Location = New System.Drawing.Point(-1, 3)
+        Me.PAYLOAD.Location = New System.Drawing.Point(-1, 0)
         Me.PAYLOAD.Name = "PAYLOAD"
-        Me.PAYLOAD.Size = New System.Drawing.Size(969, 38)
+        Me.PAYLOAD.Size = New System.Drawing.Size(820, 38)
         Me.PAYLOAD.TabIndex = 37
         Me.PAYLOAD.Text = "PAYLOAD"
         Me.PAYLOAD.UseVisualStyleBackColor = False
@@ -269,9 +268,9 @@ Partial Class Form2
         Me.Route.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
-        Me.Route.Location = New System.Drawing.Point(-22, 0)
+        Me.Route.Location = New System.Drawing.Point(0, 0)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(985, 39)
+        Me.Route.Size = New System.Drawing.Size(944, 39)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -279,103 +278,93 @@ Partial Class Form2
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Silver
-        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.Route_TextBox1)
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(1, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(962, 34)
+        Me.Panel1.Size = New System.Drawing.Size(962, 42)
         Me.Panel1.TabIndex = 40
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(3, 36)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(965, 71)
-        Me.TextBox1.TabIndex = 39
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Silver
-        Me.Panel2.Controls.Add(Me.TextBox25)
-        Me.Panel2.Controls.Add(Me.TextBox24)
-        Me.Panel2.Controls.Add(Me.TextBox23)
-        Me.Panel2.Controls.Add(Me.TextBox22)
-        Me.Panel2.Controls.Add(Me.TextBox21)
-        Me.Panel2.Controls.Add(Me.TextBox20)
-        Me.Panel2.Controls.Add(Me.TextBox19)
-        Me.Panel2.Controls.Add(Me.TextBox18)
+        Me.Panel2.Controls.Add(Me.Fuel_TextBox25)
+        Me.Panel2.Controls.Add(Me.max_TextBox24)
+        Me.Panel2.Controls.Add(Me.zero_TextBox23)
+        Me.Panel2.Controls.Add(Me.cargo_TextBox22)
+        Me.Panel2.Controls.Add(Me.baggage_TextBox21)
+        Me.Panel2.Controls.Add(Me.infants_TextBox20)
+        Me.Panel2.Controls.Add(Me.children_TextBox19)
+        Me.Panel2.Controls.Add(Me.aduiltes_TextBox18)
         Me.Panel2.Controls.Add(Me.Label13)
         Me.Panel2.Controls.Add(Me.Label35)
         Me.Panel2.Controls.Add(Me.Label36)
         Me.Panel2.Controls.Add(Me.Label37)
         Me.Panel2.Controls.Add(Me.Label38)
-        Me.Panel2.Controls.Add(Me.Label39)
         Me.Panel2.Controls.Add(Me.Label40)
         Me.Panel2.Controls.Add(Me.Label41)
         Me.Panel2.Controls.Add(Me.Label42)
         Me.Panel2.Controls.Add(Me.PAYLOAD)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(831, 45)
+        Me.Panel2.Size = New System.Drawing.Size(831, 35)
         Me.Panel2.TabIndex = 41
         '
-        'TextBox25
+        'Fuel_TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(695, 71)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox25.TabIndex = 65
+        Me.Fuel_TextBox25.Location = New System.Drawing.Point(695, 71)
+        Me.Fuel_TextBox25.Name = "Fuel_TextBox25"
+        Me.Fuel_TextBox25.Size = New System.Drawing.Size(93, 20)
+        Me.Fuel_TextBox25.TabIndex = 65
         '
-        'TextBox24
+        'max_TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(562, 68)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox24.TabIndex = 64
+        Me.max_TextBox24.Location = New System.Drawing.Point(562, 68)
+        Me.max_TextBox24.Name = "max_TextBox24"
+        Me.max_TextBox24.Size = New System.Drawing.Size(93, 20)
+        Me.max_TextBox24.TabIndex = 64
         '
-        'TextBox23
+        'zero_TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(441, 68)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox23.TabIndex = 63
+        Me.zero_TextBox23.Location = New System.Drawing.Point(441, 68)
+        Me.zero_TextBox23.Name = "zero_TextBox23"
+        Me.zero_TextBox23.Size = New System.Drawing.Size(68, 20)
+        Me.zero_TextBox23.TabIndex = 63
         '
-        'TextBox22
+        'cargo_TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(364, 67)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox22.TabIndex = 62
+        Me.cargo_TextBox22.Location = New System.Drawing.Point(364, 67)
+        Me.cargo_TextBox22.Name = "cargo_TextBox22"
+        Me.cargo_TextBox22.Size = New System.Drawing.Size(68, 20)
+        Me.cargo_TextBox22.TabIndex = 62
         '
-        'TextBox21
+        'baggage_TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(225, 67)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox21.TabIndex = 61
+        Me.baggage_TextBox21.Location = New System.Drawing.Point(225, 67)
+        Me.baggage_TextBox21.Name = "baggage_TextBox21"
+        Me.baggage_TextBox21.Size = New System.Drawing.Size(125, 20)
+        Me.baggage_TextBox21.TabIndex = 61
         '
-        'TextBox20
+        'infants_TextBox20
         '
-        Me.TextBox20.Location = New System.Drawing.Point(151, 67)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox20.TabIndex = 60
+        Me.infants_TextBox20.Location = New System.Drawing.Point(151, 67)
+        Me.infants_TextBox20.Name = "infants_TextBox20"
+        Me.infants_TextBox20.Size = New System.Drawing.Size(68, 20)
+        Me.infants_TextBox20.TabIndex = 60
         '
-        'TextBox19
+        'children_TextBox19
         '
-        Me.TextBox19.Location = New System.Drawing.Point(77, 67)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox19.TabIndex = 59
+        Me.children_TextBox19.Location = New System.Drawing.Point(77, 67)
+        Me.children_TextBox19.Name = "children_TextBox19"
+        Me.children_TextBox19.Size = New System.Drawing.Size(68, 20)
+        Me.children_TextBox19.TabIndex = 59
         '
-        'TextBox18
+        'aduiltes_TextBox18
         '
-        Me.TextBox18.Location = New System.Drawing.Point(-1, 67)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox18.TabIndex = 58
+        Me.aduiltes_TextBox18.Location = New System.Drawing.Point(-1, 67)
+        Me.aduiltes_TextBox18.Name = "aduiltes_TextBox18"
+        Me.aduiltes_TextBox18.Size = New System.Drawing.Size(68, 20)
+        Me.aduiltes_TextBox18.TabIndex = 58
         '
         'Label13
         '
@@ -411,7 +400,7 @@ Partial Class Form2
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(383, 44)
+        Me.Label37.Location = New System.Drawing.Point(371, 41)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(49, 20)
         Me.Label37.TabIndex = 54
@@ -421,21 +410,11 @@ Partial Class Form2
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(282, 44)
+        Me.Label38.Location = New System.Drawing.Point(255, 45)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(72, 20)
         Me.Label38.TabIndex = 53
         Me.Label38.Text = "baggage"
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(217, 44)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(67, 20)
-        Me.Label39.TabIndex = 52
-        Me.Label39.Text = "max pax"
         '
         'Label40
         '
@@ -470,11 +449,11 @@ Partial Class Form2
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Silver
-        Me.Panel3.Controls.Add(Me.TextBox17)
-        Me.Panel3.Controls.Add(Me.TextBox16)
-        Me.Panel3.Controls.Add(Me.TextBox15)
-        Me.Panel3.Controls.Add(Me.TextBox14)
-        Me.Panel3.Controls.Add(Me.TextBox13)
+        Me.Panel3.Controls.Add(Me.lan_TextBox17)
+        Me.Panel3.Controls.Add(Me.take_TextBox16)
+        Me.Panel3.Controls.Add(Me.cruise_TextBox15)
+        Me.Panel3.Controls.Add(Me.climb_TextBox14)
+        Me.Panel3.Controls.Add(Me.type_TextBox13)
         Me.Panel3.Controls.Add(Me.Label24)
         Me.Panel3.Controls.Add(Me.Label25)
         Me.Panel3.Controls.Add(Me.Label26)
@@ -482,46 +461,46 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.Label28)
         Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Controls.Add(Me.AircraftType)
-        Me.Panel3.Controls.Add(Me.ComboBox1)
+        Me.Panel3.Controls.Add(Me.AircraftType_ComboBox1)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(898, 34)
+        Me.Panel3.Size = New System.Drawing.Size(898, 37)
         Me.Panel3.TabIndex = 42
         '
-        'TextBox17
+        'lan_TextBox17
         '
-        Me.TextBox17.Location = New System.Drawing.Point(670, 57)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(104, 20)
-        Me.TextBox17.TabIndex = 59
+        Me.lan_TextBox17.Location = New System.Drawing.Point(670, 57)
+        Me.lan_TextBox17.Name = "lan_TextBox17"
+        Me.lan_TextBox17.Size = New System.Drawing.Size(104, 20)
+        Me.lan_TextBox17.TabIndex = 59
         '
-        'TextBox16
+        'take_TextBox16
         '
-        Me.TextBox16.Location = New System.Drawing.Point(538, 58)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox16.TabIndex = 58
+        Me.take_TextBox16.Location = New System.Drawing.Point(538, 58)
+        Me.take_TextBox16.Name = "take_TextBox16"
+        Me.take_TextBox16.Size = New System.Drawing.Size(93, 20)
+        Me.take_TextBox16.TabIndex = 58
         '
-        'TextBox15
+        'cruise_TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(349, 57)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox15.TabIndex = 57
+        Me.cruise_TextBox15.Location = New System.Drawing.Point(349, 57)
+        Me.cruise_TextBox15.Name = "cruise_TextBox15"
+        Me.cruise_TextBox15.Size = New System.Drawing.Size(93, 20)
+        Me.cruise_TextBox15.TabIndex = 57
         '
-        'TextBox14
+        'climb_TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(264, 58)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox14.TabIndex = 56
+        Me.climb_TextBox14.Location = New System.Drawing.Point(264, 58)
+        Me.climb_TextBox14.Name = "climb_TextBox14"
+        Me.climb_TextBox14.Size = New System.Drawing.Size(68, 20)
+        Me.climb_TextBox14.TabIndex = 56
         '
-        'TextBox13
+        'type_TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(184, 58)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox13.TabIndex = 55
+        Me.type_TextBox13.Location = New System.Drawing.Point(184, 58)
+        Me.type_TextBox13.Name = "type_TextBox13"
+        Me.type_TextBox13.Size = New System.Drawing.Size(68, 20)
+        Me.type_TextBox13.TabIndex = 55
         '
         'Label24
         '
@@ -583,35 +562,35 @@ Partial Class Form2
         Me.Label29.TabIndex = 49
         Me.Label29.Text = "AircraftType"
         '
-        'ComboBox1
+        'AircraftType_ComboBox1
         '
-        Me.ComboBox1.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"777-er", "747-400", "787-9", "777-f", "747-400f", "PA-28 "})
-        Me.ComboBox1.Location = New System.Drawing.Point(16, 52)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(107, 33)
-        Me.ComboBox1.TabIndex = 52
+        Me.AircraftType_ComboBox1.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.AircraftType_ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.AircraftType_ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AircraftType_ComboBox1.FormattingEnabled = True
+        Me.AircraftType_ComboBox1.Items.AddRange(New Object() {"777-er", "747-400", "787-9", "777-f", "747-400f", "PA-28 "})
+        Me.AircraftType_ComboBox1.Location = New System.Drawing.Point(16, 52)
+        Me.AircraftType_ComboBox1.Name = "AircraftType_ComboBox1"
+        Me.AircraftType_ComboBox1.Size = New System.Drawing.Size(107, 33)
+        Me.AircraftType_ComboBox1.TabIndex = 52
         '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.ComboBox5)
-        Me.Panel4.Controls.Add(Me.ComboBox4)
-        Me.Panel4.Controls.Add(Me.TextBox12)
-        Me.Panel4.Controls.Add(Me.TextBox11)
+        Me.Panel4.Controls.Add(Me.Arr__ComboBox5)
+        Me.Panel4.Controls.Add(Me.Dep_ComboBox4)
+        Me.Panel4.Controls.Add(Me.ett_TextBox12)
+        Me.Panel4.Controls.Add(Me.dte_TextBox11)
         Me.Panel4.Controls.Add(Me.ComboBox3)
-        Me.Panel4.Controls.Add(Me.TextBox10)
-        Me.Panel4.Controls.Add(Me.TextBox9)
-        Me.Panel4.Controls.Add(Me.TextBox8)
-        Me.Panel4.Controls.Add(Me.TextBox7)
-        Me.Panel4.Controls.Add(Me.TextBox6)
-        Me.Panel4.Controls.Add(Me.TextBox5)
+        Me.Panel4.Controls.Add(Me.taxiin_TextBox10)
+        Me.Panel4.Controls.Add(Me.taxiout_TextBox9)
+        Me.Panel4.Controls.Add(Me.Land_TextBox8)
+        Me.Panel4.Controls.Add(Me.Takeoff_TextBox7)
+        Me.Panel4.Controls.Add(Me.Callsign_TextBox6)
+        Me.Panel4.Controls.Add(Me.Flight_TextBox5)
         Me.Panel4.Controls.Add(Me.flightinfo)
-        Me.Panel4.Controls.Add(Me.TextBox4)
+        Me.Panel4.Controls.Add(Me.Airline_textBox4)
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Controls.Add(Me.Label15)
         Me.Panel4.Controls.Add(Me.Label14)
@@ -626,44 +605,44 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1088, 27)
+        Me.Panel4.Size = New System.Drawing.Size(1088, 30)
         Me.Panel4.TabIndex = 43
         '
-        'ComboBox5
+        'Arr__ComboBox5
         '
-        Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk", "kmco", "eglc", "klax", "rjtt", "lfbo", "ksdf", "ltba", "kewr"})
-        Me.ComboBox5.Location = New System.Drawing.Point(285, 56)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(156, 28)
-        Me.ComboBox5.TabIndex = 62
-        Me.ComboBox5.Text = "          Arr"
+        Me.Arr__ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Arr__ComboBox5.FormattingEnabled = True
+        Me.Arr__ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk", "kmco", "eglc", "klax", "rjtt", "lfbo", "ksdf", "ltba", "kewr"})
+        Me.Arr__ComboBox5.Location = New System.Drawing.Point(285, 56)
+        Me.Arr__ComboBox5.Name = "Arr__ComboBox5"
+        Me.Arr__ComboBox5.Size = New System.Drawing.Size(156, 28)
+        Me.Arr__ComboBox5.TabIndex = 62
+        Me.Arr__ComboBox5.Text = "          Arr"
         '
-        'ComboBox4
+        'Dep_ComboBox4
         '
-        Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"kfbl", "eglll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "lebl", "phnl", "ksfo", "kden", "yppy", "eglk", "kmco", "eglc", "klax", "rjtt", "lfbo", "ksdf", "ltba", "kewr"})
-        Me.ComboBox4.Location = New System.Drawing.Point(178, 57)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(105, 28)
-        Me.ComboBox4.TabIndex = 61
-        Me.ComboBox4.Text = "        Dep"
+        Me.Dep_ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Dep_ComboBox4.FormattingEnabled = True
+        Me.Dep_ComboBox4.Items.AddRange(New Object() {"kfbl", "eglll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "lebl", "phnl", "ksfo", "kden", "yppy", "eglk", "kmco", "eglc", "klax", "rjtt", "lfbo", "ksdf", "ltba", "kewr"})
+        Me.Dep_ComboBox4.Location = New System.Drawing.Point(178, 57)
+        Me.Dep_ComboBox4.Name = "Dep_ComboBox4"
+        Me.Dep_ComboBox4.Size = New System.Drawing.Size(105, 28)
+        Me.Dep_ComboBox4.TabIndex = 61
+        Me.Dep_ComboBox4.Text = "        Dep"
         '
-        'TextBox12
+        'ett_TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(1011, 58)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(63, 20)
-        Me.TextBox12.TabIndex = 60
+        Me.ett_TextBox12.Location = New System.Drawing.Point(1011, 58)
+        Me.ett_TextBox12.Name = "ett_TextBox12"
+        Me.ett_TextBox12.Size = New System.Drawing.Size(63, 20)
+        Me.ett_TextBox12.TabIndex = 60
         '
-        'TextBox11
+        'dte_TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(905, 56)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(95, 20)
-        Me.TextBox11.TabIndex = 59
+        Me.dte_TextBox11.Location = New System.Drawing.Point(905, 56)
+        Me.dte_TextBox11.Name = "dte_TextBox11"
+        Me.dte_TextBox11.Size = New System.Drawing.Size(95, 20)
+        Me.dte_TextBox11.TabIndex = 59
         '
         'ComboBox3
         '
@@ -678,57 +657,57 @@ Partial Class Form2
         Me.ComboBox3.Size = New System.Drawing.Size(124, 28)
         Me.ComboBox3.TabIndex = 58
         '
-        'TextBox10
+        'taxiin_TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(686, 58)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(78, 20)
-        Me.TextBox10.TabIndex = 57
+        Me.taxiin_TextBox10.Location = New System.Drawing.Point(686, 58)
+        Me.taxiin_TextBox10.Name = "taxiin_TextBox10"
+        Me.taxiin_TextBox10.Size = New System.Drawing.Size(78, 20)
+        Me.taxiin_TextBox10.TabIndex = 57
         '
-        'TextBox9
+        'taxiout_TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(602, 58)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(73, 20)
-        Me.TextBox9.TabIndex = 56
+        Me.taxiout_TextBox9.Location = New System.Drawing.Point(602, 58)
+        Me.taxiout_TextBox9.Name = "taxiout_TextBox9"
+        Me.taxiout_TextBox9.Size = New System.Drawing.Size(73, 20)
+        Me.taxiout_TextBox9.TabIndex = 56
         '
-        'TextBox8
+        'Land_TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(528, 58)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(68, 20)
-        Me.TextBox8.TabIndex = 55
+        Me.Land_TextBox8.Location = New System.Drawing.Point(528, 58)
+        Me.Land_TextBox8.Name = "Land_TextBox8"
+        Me.Land_TextBox8.Size = New System.Drawing.Size(68, 20)
+        Me.Land_TextBox8.TabIndex = 55
         '
-        'TextBox7
+        'Takeoff_TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(452, 58)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(70, 20)
-        Me.TextBox7.TabIndex = 54
+        Me.Takeoff_TextBox7.Location = New System.Drawing.Point(452, 58)
+        Me.Takeoff_TextBox7.Name = "Takeoff_TextBox7"
+        Me.Takeoff_TextBox7.Size = New System.Drawing.Size(70, 20)
+        Me.Takeoff_TextBox7.TabIndex = 54
         '
-        'TextBox6
+        'Callsign_TextBox6
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(122, 56)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(50, 20)
-        Me.TextBox6.TabIndex = 51
+        Me.Callsign_TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Callsign_TextBox6.Location = New System.Drawing.Point(122, 56)
+        Me.Callsign_TextBox6.Name = "Callsign_TextBox6"
+        Me.Callsign_TextBox6.Size = New System.Drawing.Size(50, 20)
+        Me.Callsign_TextBox6.TabIndex = 51
         '
-        'TextBox5
+        'Flight_TextBox5
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(65, 56)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(71, 20)
-        Me.TextBox5.TabIndex = 50
+        Me.Flight_TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Flight_TextBox5.Location = New System.Drawing.Point(65, 56)
+        Me.Flight_TextBox5.Name = "Flight_TextBox5"
+        Me.Flight_TextBox5.Size = New System.Drawing.Size(71, 20)
+        Me.Flight_TextBox5.TabIndex = 50
         '
-        'TextBox4
+        'Airline_textBox4
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(1, 56)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox4.TabIndex = 49
+        Me.Airline_textBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Airline_textBox4.Location = New System.Drawing.Point(1, 56)
+        Me.Airline_textBox4.Name = "Airline_textBox4"
+        Me.Airline_textBox4.Size = New System.Drawing.Size(65, 20)
+        Me.Airline_textBox4.TabIndex = 49
         '
         'Label16
         '
@@ -861,6 +840,14 @@ Partial Class Form2
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
         '
+        'Route_TextBox1
+        '
+        Me.Route_TextBox1.Location = New System.Drawing.Point(0, 37)
+        Me.Route_TextBox1.Multiline = True
+        Me.Route_TextBox1.Name = "Route_TextBox1"
+        Me.Route_TextBox1.Size = New System.Drawing.Size(962, 82)
+        Me.Route_TextBox1.TabIndex = 39
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -918,12 +905,10 @@ Partial Class Form2
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Button12 As Button
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label35 As Label
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents Label38 As Label
-    Friend WithEvents Label39 As Label
     Friend WithEvents Label40 As Label
     Friend WithEvents Label41 As Label
     Friend WithEvents Label42 As Label
@@ -945,35 +930,36 @@ Partial Class Form2
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents AIRTPOR_TextBox3 As TextBox
+    Friend WithEvents Route_TextBox2 As TextBox
     Friend WithEvents Label44 As Label
     Friend WithEvents Label43 As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents Callsign_TextBox6 As TextBox
+    Friend WithEvents Flight_TextBox5 As TextBox
+    Friend WithEvents Airline_textBox4 As TextBox
+    Friend WithEvents max_TextBox24 As TextBox
+    Friend WithEvents zero_TextBox23 As TextBox
+    Friend WithEvents cargo_TextBox22 As TextBox
+    Friend WithEvents baggage_TextBox21 As TextBox
+    Friend WithEvents infants_TextBox20 As TextBox
+    Friend WithEvents children_TextBox19 As TextBox
+    Friend WithEvents aduiltes_TextBox18 As TextBox
+    Friend WithEvents lan_TextBox17 As TextBox
+    Friend WithEvents take_TextBox16 As TextBox
+    Friend WithEvents cruise_TextBox15 As TextBox
+    Friend WithEvents climb_TextBox14 As TextBox
+    Friend WithEvents type_TextBox13 As TextBox
+    Friend WithEvents AircraftType_ComboBox1 As ComboBox
+    Friend WithEvents ett_TextBox12 As TextBox
+    Friend WithEvents dte_TextBox11 As TextBox
     Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents taxiin_TextBox10 As TextBox
+    Friend WithEvents taxiout_TextBox9 As TextBox
+    Friend WithEvents Land_TextBox8 As TextBox
+    Friend WithEvents Takeoff_TextBox7 As TextBox
+    Friend WithEvents Dep_ComboBox4 As ComboBox
+    Friend WithEvents Arr__ComboBox5 As ComboBox
+    Friend WithEvents Fuel_TextBox25 As TextBox
+    Friend WithEvents Route_TextBox1 As TextBox
 End Class
