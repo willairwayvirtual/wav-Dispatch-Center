@@ -40,13 +40,14 @@ Partial Class Form2
         Me.alternates = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.logout = New System.Windows.Forms.Button()
-        Me.fliginfo = New System.Windows.Forms.Button()
+        Me.flightinfo = New System.Windows.Forms.Button()
         Me.AircraftType = New System.Windows.Forms.Button()
         Me.PAYLOAD = New System.Windows.Forms.Button()
         Me.Route = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TextBox25 = New System.Windows.Forms.TextBox()
         Me.TextBox24 = New System.Windows.Forms.TextBox()
         Me.TextBox23 = New System.Windows.Forms.TextBox()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
@@ -77,6 +78,7 @@ Partial Class Form2
         Me.Label29 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
@@ -101,8 +103,6 @@ Partial Class Form2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -140,6 +140,9 @@ Partial Class Form2
         Me.Button72.Text = "Search for Route"
         Me.Button72.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        '
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.Silver
@@ -150,7 +153,7 @@ Partial Class Form2
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(969, 128)
+        Me.Panel6.Size = New System.Drawing.Size(969, 40)
         Me.Panel6.TabIndex = 31
         '
         'Label44
@@ -221,18 +224,18 @@ Partial Class Form2
         Me.logout.Text = "logout"
         Me.logout.UseVisualStyleBackColor = True
         '
-        'fliginfo
+        'flightinfo
         '
-        Me.fliginfo.BackColor = System.Drawing.Color.DimGray
-        Me.fliginfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.fliginfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fliginfo.ForeColor = System.Drawing.Color.DarkRed
-        Me.fliginfo.Location = New System.Drawing.Point(2, 0)
-        Me.fliginfo.Name = "fliginfo"
-        Me.fliginfo.Size = New System.Drawing.Size(1080, 30)
-        Me.fliginfo.TabIndex = 35
-        Me.fliginfo.Text = "Flight Info"
-        Me.fliginfo.UseVisualStyleBackColor = False
+        Me.flightinfo.BackColor = System.Drawing.Color.DimGray
+        Me.flightinfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.flightinfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.flightinfo.ForeColor = System.Drawing.Color.DarkRed
+        Me.flightinfo.Location = New System.Drawing.Point(-1, -3)
+        Me.flightinfo.Name = "flightinfo"
+        Me.flightinfo.Size = New System.Drawing.Size(1080, 30)
+        Me.flightinfo.TabIndex = 35
+        Me.flightinfo.Text = "Flight Info"
+        Me.flightinfo.UseVisualStyleBackColor = False
         '
         'AircraftType
         '
@@ -280,16 +283,16 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(1, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(962, 119)
+        Me.Panel1.Size = New System.Drawing.Size(962, 34)
         Me.Panel1.TabIndex = 40
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(-16, 33)
+        Me.TextBox1.Location = New System.Drawing.Point(3, 36)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(991, 86)
+        Me.TextBox1.Size = New System.Drawing.Size(965, 71)
         Me.TextBox1.TabIndex = 39
         '
         'Panel2
@@ -315,8 +318,15 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.PAYLOAD)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(831, 108)
+        Me.Panel2.Size = New System.Drawing.Size(831, 45)
         Me.Panel2.TabIndex = 41
+        '
+        'TextBox25
+        '
+        Me.TextBox25.Location = New System.Drawing.Point(695, 71)
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New System.Drawing.Size(93, 20)
+        Me.TextBox25.TabIndex = 65
         '
         'TextBox24
         '
@@ -475,7 +485,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.ComboBox1)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(898, 88)
+        Me.Panel3.Size = New System.Drawing.Size(898, 34)
         Me.Panel3.TabIndex = 42
         '
         'TextBox17
@@ -600,6 +610,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.TextBox7)
         Me.Panel4.Controls.Add(Me.TextBox6)
         Me.Panel4.Controls.Add(Me.TextBox5)
+        Me.Panel4.Controls.Add(Me.flightinfo)
         Me.Panel4.Controls.Add(Me.TextBox4)
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Controls.Add(Me.Label15)
@@ -613,11 +624,21 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label6)
         Me.Panel4.Controls.Add(Me.Label5)
         Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Controls.Add(Me.fliginfo)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1088, 90)
+        Me.Panel4.Size = New System.Drawing.Size(1088, 27)
         Me.Panel4.TabIndex = 43
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk", "kmco", "eglc", "klax", "rjtt", "lfbo", "ksdf", "ltba", "kewr"})
+        Me.ComboBox5.Location = New System.Drawing.Point(285, 56)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(156, 28)
+        Me.ComboBox5.TabIndex = 62
+        Me.ComboBox5.Text = "          Arr"
         '
         'ComboBox4
         '
@@ -632,7 +653,7 @@ Partial Class Form2
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(1011, 53)
+        Me.TextBox12.Location = New System.Drawing.Point(1011, 58)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(63, 20)
         Me.TextBox12.TabIndex = 60
@@ -840,24 +861,6 @@ Partial Class Form2
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
         '
-        'ComboBox5
-        '
-        Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"kfbl", "egll", "eidw", "klatl", "egkk", "omdb", "uudd", "egff", "klga", "wsss", "ypph", "yssy", "vhhh", "zbaa", "cyyc", "faoz", "ledl", "phnl", "ksfo", "kden", "eglk", "kmco", "eglc", "klax", "rjtt", "lfbo", "ksdf", "ltba", "kewr"})
-        Me.ComboBox5.Location = New System.Drawing.Point(285, 56)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(156, 28)
-        Me.ComboBox5.TabIndex = 62
-        Me.ComboBox5.Text = "          Arr"
-        '
-        'TextBox25
-        '
-        Me.TextBox25.Location = New System.Drawing.Point(695, 71)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(93, 20)
-        Me.TextBox25.TabIndex = 65
-        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -905,7 +908,7 @@ Partial Class Form2
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents logout As Button
-    Friend WithEvents fliginfo As Button
+    Friend WithEvents flightinfo As Button
     Friend WithEvents AircraftType As Button
     Friend WithEvents PAYLOAD As Button
     Friend WithEvents Route As Button
