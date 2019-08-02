@@ -75,7 +75,6 @@ Partial Class Form2
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.AircraftType_ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.ett_TextBox12 = New System.Windows.Forms.TextBox()
         Me.dte_TextBox11 = New System.Windows.Forms.TextBox()
@@ -102,6 +101,7 @@ Partial Class Form2
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -270,7 +270,7 @@ Partial Class Form2
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
         Me.Route.Location = New System.Drawing.Point(0, 0)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(944, 39)
+        Me.Route.Size = New System.Drawing.Size(962, 39)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -282,7 +282,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(1, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(962, 37)
+        Me.Panel1.Size = New System.Drawing.Size(962, 44)
         Me.Panel1.TabIndex = 40
         '
         'Route_TextBox1
@@ -290,7 +290,7 @@ Partial Class Form2
         Me.Route_TextBox1.Location = New System.Drawing.Point(0, 37)
         Me.Route_TextBox1.Multiline = True
         Me.Route_TextBox1.Name = "Route_TextBox1"
-        Me.Route_TextBox1.Size = New System.Drawing.Size(962, 82)
+        Me.Route_TextBox1.Size = New System.Drawing.Size(968, 79)
         Me.Route_TextBox1.TabIndex = 39
         '
         'Panel2
@@ -315,7 +315,7 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.PAYLOAD)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(831, 35)
+        Me.Panel2.Size = New System.Drawing.Size(821, 39)
         Me.Panel2.TabIndex = 41
         '
         'Fuel_TextBox25
@@ -457,6 +457,7 @@ Partial Class Form2
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Silver
+        Me.Panel3.Controls.Add(Me.TextBox4)
         Me.Panel3.Controls.Add(Me.lan_TextBox17)
         Me.Panel3.Controls.Add(Me.take_TextBox16)
         Me.Panel3.Controls.Add(Me.cruise_TextBox15)
@@ -469,10 +470,9 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.Label28)
         Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Controls.Add(Me.AircraftType)
-        Me.Panel3.Controls.Add(Me.AircraftType_ComboBox1)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(898, 37)
+        Me.Panel3.Size = New System.Drawing.Size(861, 55)
         Me.Panel3.TabIndex = 42
         '
         'lan_TextBox17
@@ -570,18 +570,6 @@ Partial Class Form2
         Me.Label29.TabIndex = 49
         Me.Label29.Text = "AircraftType"
         '
-        'AircraftType_ComboBox1
-        '
-        Me.AircraftType_ComboBox1.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.AircraftType_ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.AircraftType_ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AircraftType_ComboBox1.FormattingEnabled = True
-        Me.AircraftType_ComboBox1.Items.AddRange(New Object() {"777-er", "747-400", "787-9", "777-f", "747-400f", "PA-28 "})
-        Me.AircraftType_ComboBox1.Location = New System.Drawing.Point(16, 52)
-        Me.AircraftType_ComboBox1.Name = "AircraftType_ComboBox1"
-        Me.AircraftType_ComboBox1.Size = New System.Drawing.Size(107, 33)
-        Me.AircraftType_ComboBox1.TabIndex = 52
-        '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
@@ -613,7 +601,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1101, 90)
+        Me.Panel4.Size = New System.Drawing.Size(1101, 32)
         Me.Panel4.TabIndex = 43
         '
         'ett_TextBox12
@@ -837,6 +825,14 @@ Partial Class Form2
         Me.TextBox3.Size = New System.Drawing.Size(129, 20)
         Me.TextBox3.TabIndex = 63
         '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(5, 57)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(137, 20)
+        Me.TextBox4.TabIndex = 63
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -939,7 +935,6 @@ Partial Class Form2
     Friend WithEvents cruise_TextBox15 As TextBox
     Friend WithEvents climb_TextBox14 As TextBox
     Friend WithEvents type_TextBox13 As TextBox
-    Friend WithEvents AircraftType_ComboBox1 As ComboBox
     Friend WithEvents ett_TextBox12 As TextBox
     Friend WithEvents dte_TextBox11 As TextBox
     Friend WithEvents taxiin_TextBox10 As TextBox
@@ -951,4 +946,5 @@ Partial Class Form2
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox4 As TextBox
 End Class
