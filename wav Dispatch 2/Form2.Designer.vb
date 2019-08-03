@@ -64,7 +64,7 @@ Partial Class Form2
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.aicrtTextBox4 = New System.Windows.Forms.TextBox()
         Me.lanTextBox17 = New System.Windows.Forms.TextBox()
         Me.takeTextBox16 = New System.Windows.Forms.TextBox()
         Me.cruiseTextBox15 = New System.Windows.Forms.TextBox()
@@ -77,7 +77,7 @@ Partial Class Form2
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.opeTextBox3 = New System.Windows.Forms.TextBox()
         Me.arrTextBox2 = New System.Windows.Forms.TextBox()
         Me.depTextBox1 = New System.Windows.Forms.TextBox()
         Me.ettTextBox12 = New System.Windows.Forms.TextBox()
@@ -457,7 +457,7 @@ Partial Class Form2
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Silver
-        Me.Panel3.Controls.Add(Me.TextBox4)
+        Me.Panel3.Controls.Add(Me.aicrtTextBox4)
         Me.Panel3.Controls.Add(Me.lanTextBox17)
         Me.Panel3.Controls.Add(Me.takeTextBox16)
         Me.Panel3.Controls.Add(Me.cruiseTextBox15)
@@ -472,16 +472,16 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.AircraftType)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(838, 43)
+        Me.Panel3.Size = New System.Drawing.Size(838, 42)
         Me.Panel3.TabIndex = 42
         '
-        'TextBox4
+        'aicrtTextBox4
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(5, 57)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(137, 20)
-        Me.TextBox4.TabIndex = 63
+        Me.aicrtTextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.aicrtTextBox4.Location = New System.Drawing.Point(5, 57)
+        Me.aicrtTextBox4.Name = "aicrtTextBox4"
+        Me.aicrtTextBox4.Size = New System.Drawing.Size(137, 20)
+        Me.aicrtTextBox4.TabIndex = 63
         '
         'lanTextBox17
         '
@@ -582,7 +582,7 @@ Partial Class Form2
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.TextBox3)
+        Me.Panel4.Controls.Add(Me.opeTextBox3)
         Me.Panel4.Controls.Add(Me.arrTextBox2)
         Me.Panel4.Controls.Add(Me.depTextBox1)
         Me.Panel4.Controls.Add(Me.ettTextBox12)
@@ -609,16 +609,16 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1101, 33)
+        Me.Panel4.Size = New System.Drawing.Size(1101, 36)
         Me.Panel4.TabIndex = 43
         '
-        'TextBox3
+        'opeTextBox3
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(770, 58)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(129, 20)
-        Me.TextBox3.TabIndex = 63
+        Me.opeTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.opeTextBox3.Location = New System.Drawing.Point(770, 58)
+        Me.opeTextBox3.Name = "opeTextBox3"
+        Me.opeTextBox3.Size = New System.Drawing.Size(129, 20)
+        Me.opeTextBox3.TabIndex = 63
         '
         'arrTextBox2
         '
@@ -943,8 +943,8 @@ Partial Class Form2
     Friend WithEvents TakeoffTextBox7 As TextBox
     Friend WithEvents FuelTextBox25 As TextBox
     Friend WithEvents RouteTextBox1 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents opeTextBox3 As TextBox
     Friend WithEvents arrTextBox2 As TextBox
     Friend WithEvents depTextBox1 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents aicrtTextBox4 As TextBox
 End Class
