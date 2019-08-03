@@ -1,6 +1,8 @@
 ﻿Public Class Form2
     ' pl1 = panel1 height
     Dim pl1 As Integer = 30
+    ' pl2 = panel2 height
+    Dim pl2 As Integer = 30
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button72.Click
         Form3.Show()
@@ -22,6 +24,19 @@
 
     End Sub
 
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+
+        ' 250 = panel height
+        If pl2 > 90 Then
+
+            Timer2.Stop()
+
+        Else
+            Me.Panel3.Size = New Size(Me.Panel3.Size.Width, pl2)
+            pl2 += 10
+        End If
+
+    End Sub
 
 
 
@@ -50,15 +65,13 @@
         pl1 = 30
     End Sub
 
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
-
+    Private Sub aircrafttype_MouseMove(sender As Object, e As MouseEventArgs) Handles AircraftType.MouseMove
+        Timer2.Start()
     End Sub
 
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
+    Private Sub aircrafttype_MouseLeave(sender As Object, e As EventArgs) Handles AircraftType.MouseLeave
+        Timer2.Stop()
+        pl2 = 30
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
 End Class

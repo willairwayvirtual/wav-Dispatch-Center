@@ -244,7 +244,7 @@ Partial Class Form2
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
         Me.AircraftType.Location = New System.Drawing.Point(-3, 0)
         Me.AircraftType.Name = "AircraftType"
-        Me.AircraftType.Size = New System.Drawing.Size(879, 34)
+        Me.AircraftType.Size = New System.Drawing.Size(1080, 30)
         Me.AircraftType.TabIndex = 36
         Me.AircraftType.Text = "AircraftType"
         Me.AircraftType.UseVisualStyleBackColor = False
@@ -472,7 +472,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.AircraftType)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(838, 42)
+        Me.Panel3.Size = New System.Drawing.Size(1080, 34)
         Me.Panel3.TabIndex = 42
         '
         'aicrtTextBox4
@@ -609,7 +609,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1101, 36)
+        Me.Panel4.Size = New System.Drawing.Size(1080, 36)
         Me.Panel4.TabIndex = 43
         '
         'opeTextBox3
