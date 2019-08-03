@@ -270,7 +270,7 @@ Partial Class Form2
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
         Me.Route.Location = New System.Drawing.Point(10, 0)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(962, 39)
+        Me.Route.Size = New System.Drawing.Size(958, 39)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -282,7 +282,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(-15, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(957, 48)
+        Me.Panel1.Size = New System.Drawing.Size(984, 41)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
