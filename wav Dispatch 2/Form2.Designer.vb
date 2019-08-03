@@ -31,7 +31,6 @@ Partial Class Form2
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
-        Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
@@ -102,6 +101,7 @@ Partial Class Form2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
+        Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -142,6 +142,15 @@ Partial Class Form2
         'Timer1
         '
         '
+        'Timer2
+        '
+        '
+        'Timer3
+        '
+        '
+        'Timer4
+        '
+        '
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.Silver
@@ -152,7 +161,7 @@ Partial Class Form2
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(936, 42)
+        Me.Panel6.Size = New System.Drawing.Size(1080, 36)
         Me.Panel6.TabIndex = 31
         '
         'Label44
@@ -197,9 +206,9 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(6, 0)
+        Me.alternates.Location = New System.Drawing.Point(10, -3)
         Me.alternates.Name = "alternates"
-        Me.alternates.Size = New System.Drawing.Size(983, 36)
+        Me.alternates.Size = New System.Drawing.Size(1080, 30)
         Me.alternates.TabIndex = 39
         Me.alternates.Text = "alternates"
         Me.alternates.UseVisualStyleBackColor = False
@@ -242,7 +251,7 @@ Partial Class Form2
         Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AircraftType.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
-        Me.AircraftType.Location = New System.Drawing.Point(-3, 0)
+        Me.AircraftType.Location = New System.Drawing.Point(0, 0)
         Me.AircraftType.Name = "AircraftType"
         Me.AircraftType.Size = New System.Drawing.Size(1080, 30)
         Me.AircraftType.TabIndex = 36
@@ -255,9 +264,9 @@ Partial Class Form2
         Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PAYLOAD.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
-        Me.PAYLOAD.Location = New System.Drawing.Point(3, 0)
+        Me.PAYLOAD.Location = New System.Drawing.Point(0, 0)
         Me.PAYLOAD.Name = "PAYLOAD"
-        Me.PAYLOAD.Size = New System.Drawing.Size(820, 38)
+        Me.PAYLOAD.Size = New System.Drawing.Size(1080, 30)
         Me.PAYLOAD.TabIndex = 37
         Me.PAYLOAD.Text = "PAYLOAD"
         Me.PAYLOAD.UseVisualStyleBackColor = False
@@ -268,9 +277,9 @@ Partial Class Form2
         Me.Route.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
-        Me.Route.Location = New System.Drawing.Point(10, 0)
+        Me.Route.Location = New System.Drawing.Point(3, 0)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(958, 39)
+        Me.Route.Size = New System.Drawing.Size(1080, 30)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -280,9 +289,9 @@ Partial Class Form2
         Me.Panel1.BackColor = System.Drawing.Color.Silver
         Me.Panel1.Controls.Add(Me.RouteTextBox1)
         Me.Panel1.Controls.Add(Me.Route)
-        Me.Panel1.Location = New System.Drawing.Point(-15, 370)
+        Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(984, 41)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 36)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
@@ -315,7 +324,7 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.Label42)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(777, 48)
+        Me.Panel2.Size = New System.Drawing.Size(1080, 36)
         Me.Panel2.TabIndex = 41
         '
         'FuelTextBox25
@@ -472,7 +481,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.AircraftType)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1080, 34)
+        Me.Panel3.Size = New System.Drawing.Size(1080, 36)
         Me.Panel3.TabIndex = 42
         '
         'aicrtTextBox4
@@ -876,7 +885,6 @@ Partial Class Form2
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Timer4 As Timer
-    Friend WithEvents Timer5 As Timer
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents logout As Button
@@ -947,4 +955,5 @@ Partial Class Form2
     Friend WithEvents arrTextBox2 As TextBox
     Friend WithEvents depTextBox1 As TextBox
     Friend WithEvents aicrtTextBox4 As TextBox
+    Friend WithEvents Timer5 As Timer
 End Class
