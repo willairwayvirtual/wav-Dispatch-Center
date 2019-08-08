@@ -291,7 +291,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 119)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 36)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
