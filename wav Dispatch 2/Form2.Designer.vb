@@ -184,7 +184,7 @@ Partial Class Form2
         '
         'RouteTextBox2
         '
-        Me.RouteTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RouteTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RouteTextBox2.Location = New System.Drawing.Point(129, 58)
         Me.RouteTextBox2.Multiline = True
         Me.RouteTextBox2.Name = "RouteTextBox2"
@@ -193,7 +193,7 @@ Partial Class Form2
         '
         'AIRTPORTextBox3
         '
-        Me.AIRTPORTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AIRTPORTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AIRTPORTextBox3.Location = New System.Drawing.Point(1, 60)
         Me.AIRTPORTextBox3.Multiline = True
         Me.AIRTPORTextBox3.Name = "AIRTPORTextBox3"
@@ -206,7 +206,7 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(10, -3)
+        Me.alternates.Location = New System.Drawing.Point(10, 0)
         Me.alternates.Name = "alternates"
         Me.alternates.Size = New System.Drawing.Size(1080, 30)
         Me.alternates.TabIndex = 39
@@ -291,16 +291,16 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 36)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 39)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
         '
         Me.RouteTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RouteTextBox1.Location = New System.Drawing.Point(0, 37)
+        Me.RouteTextBox1.Location = New System.Drawing.Point(-2, 36)
         Me.RouteTextBox1.Multiline = True
         Me.RouteTextBox1.Name = "RouteTextBox1"
-        Me.RouteTextBox1.Size = New System.Drawing.Size(1081, 79)
+        Me.RouteTextBox1.Size = New System.Drawing.Size(1080, 71)
         Me.RouteTextBox1.TabIndex = 39
         '
         'Panel2
