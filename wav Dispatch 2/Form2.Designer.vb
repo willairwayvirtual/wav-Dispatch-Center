@@ -291,7 +291,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 36)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 33)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
@@ -325,7 +325,7 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.Label42)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1080, 36)
+        Me.Panel2.Size = New System.Drawing.Size(1080, 31)
         Me.Panel2.TabIndex = 41
         '
         'FuelTextBox25
@@ -482,7 +482,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.AircraftType)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1080, 36)
+        Me.Panel3.Size = New System.Drawing.Size(1080, 27)
         Me.Panel3.TabIndex = 42
         '
         'aicrtTextBox4
@@ -619,7 +619,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1101, 37)
+        Me.Panel4.Size = New System.Drawing.Size(1101, 28)
         Me.Panel4.TabIndex = 43
         '
         'opeTextBox3
