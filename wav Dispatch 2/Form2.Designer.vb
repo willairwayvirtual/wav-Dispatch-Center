@@ -161,7 +161,7 @@ Partial Class Form2
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(1080, 36)
+        Me.Panel6.Size = New System.Drawing.Size(1080, 37)
         Me.Panel6.TabIndex = 31
         '
         'Label44
@@ -184,16 +184,16 @@ Partial Class Form2
         '
         'RouteTextBox2
         '
-        Me.RouteTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RouteTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RouteTextBox2.Location = New System.Drawing.Point(129, 58)
         Me.RouteTextBox2.Multiline = True
         Me.RouteTextBox2.Name = "RouteTextBox2"
-        Me.RouteTextBox2.Size = New System.Drawing.Size(846, 68)
+        Me.RouteTextBox2.Size = New System.Drawing.Size(951, 68)
         Me.RouteTextBox2.TabIndex = 43
         '
         'AIRTPORTextBox3
         '
-        Me.AIRTPORTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AIRTPORTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AIRTPORTextBox3.Location = New System.Drawing.Point(1, 60)
         Me.AIRTPORTextBox3.Multiline = True
         Me.AIRTPORTextBox3.Name = "AIRTPORTextBox3"
@@ -291,12 +291,12 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 43)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 119)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
         '
-        Me.RouteTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RouteTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RouteTextBox1.Location = New System.Drawing.Point(0, 37)
         Me.RouteTextBox1.Multiline = True
         Me.RouteTextBox1.Name = "RouteTextBox1"
@@ -625,7 +625,7 @@ Partial Class Form2
         'opeTextBox3
         '
         Me.opeTextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.opeTextBox3.Location = New System.Drawing.Point(788, 58)
+        Me.opeTextBox3.Location = New System.Drawing.Point(782, 58)
         Me.opeTextBox3.Name = "opeTextBox3"
         Me.opeTextBox3.Size = New System.Drawing.Size(129, 20)
         Me.opeTextBox3.TabIndex = 63
@@ -662,28 +662,28 @@ Partial Class Form2
         '
         'taxiinTextBox10
         '
-        Me.taxiinTextBox10.Location = New System.Drawing.Point(698, 56)
+        Me.taxiinTextBox10.Location = New System.Drawing.Point(698, 58)
         Me.taxiinTextBox10.Name = "taxiinTextBox10"
         Me.taxiinTextBox10.Size = New System.Drawing.Size(78, 20)
         Me.taxiinTextBox10.TabIndex = 57
         '
         'taxioutTextBox9
         '
-        Me.taxioutTextBox9.Location = New System.Drawing.Point(619, 56)
+        Me.taxioutTextBox9.Location = New System.Drawing.Point(619, 58)
         Me.taxioutTextBox9.Name = "taxioutTextBox9"
         Me.taxioutTextBox9.Size = New System.Drawing.Size(73, 20)
         Me.taxioutTextBox9.TabIndex = 56
         '
         'LandTextBox8
         '
-        Me.LandTextBox8.Location = New System.Drawing.Point(545, 56)
+        Me.LandTextBox8.Location = New System.Drawing.Point(545, 58)
         Me.LandTextBox8.Name = "LandTextBox8"
         Me.LandTextBox8.Size = New System.Drawing.Size(68, 20)
         Me.LandTextBox8.TabIndex = 55
         '
         'TakeoffTextBox7
         '
-        Me.TakeoffTextBox7.Location = New System.Drawing.Point(469, 56)
+        Me.TakeoffTextBox7.Location = New System.Drawing.Point(469, 58)
         Me.TakeoffTextBox7.Name = "TakeoffTextBox7"
         Me.TakeoffTextBox7.Size = New System.Drawing.Size(70, 20)
         Me.TakeoffTextBox7.TabIndex = 54
@@ -736,7 +736,7 @@ Partial Class Form2
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(784, 34)
+        Me.Label14.Location = New System.Drawing.Point(784, 26)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(128, 20)
         Me.Label14.TabIndex = 46
@@ -786,7 +786,7 @@ Partial Class Form2
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(359, 36)
+        Me.Label8.Location = New System.Drawing.Point(359, 27)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(28, 19)
         Me.Label8.TabIndex = 40
