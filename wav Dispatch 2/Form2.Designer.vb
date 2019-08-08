@@ -291,7 +291,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 36)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 37)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
@@ -299,7 +299,7 @@ Partial Class Form2
         Me.RouteTextBox1.Location = New System.Drawing.Point(0, 37)
         Me.RouteTextBox1.Multiline = True
         Me.RouteTextBox1.Name = "RouteTextBox1"
-        Me.RouteTextBox1.Size = New System.Drawing.Size(968, 79)
+        Me.RouteTextBox1.Size = New System.Drawing.Size(1081, 79)
         Me.RouteTextBox1.TabIndex = 39
         '
         'Panel2
@@ -841,6 +841,9 @@ Partial Class Form2
         Me.Button12.TabIndex = 44
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Timer5
+        '
         '
         'Form2
         '
