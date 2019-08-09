@@ -251,7 +251,7 @@ Partial Class Form2
         Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AircraftType.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
-        Me.AircraftType.Location = New System.Drawing.Point(-3, 0)
+        Me.AircraftType.Location = New System.Drawing.Point(-13, -2)
         Me.AircraftType.Name = "AircraftType"
         Me.AircraftType.Size = New System.Drawing.Size(1080, 30)
         Me.AircraftType.TabIndex = 36
@@ -266,7 +266,7 @@ Partial Class Form2
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
         Me.PAYLOAD.Location = New System.Drawing.Point(0, 0)
         Me.PAYLOAD.Name = "PAYLOAD"
-        Me.PAYLOAD.Size = New System.Drawing.Size(1080, 30)
+        Me.PAYLOAD.Size = New System.Drawing.Size(1070, 30)
         Me.PAYLOAD.TabIndex = 37
         Me.PAYLOAD.Text = "PAYLOAD"
         Me.PAYLOAD.UseVisualStyleBackColor = False
@@ -279,7 +279,7 @@ Partial Class Form2
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
         Me.Route.Location = New System.Drawing.Point(3, 0)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(1080, 30)
+        Me.Route.Size = New System.Drawing.Size(1068, 30)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -478,11 +478,11 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.Label26)
         Me.Panel3.Controls.Add(Me.Label27)
         Me.Panel3.Controls.Add(Me.Label28)
-        Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Controls.Add(Me.AircraftType)
+        Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1080, 27)
+        Me.Panel3.Size = New System.Drawing.Size(1080, 31)
         Me.Panel3.TabIndex = 42
         '
         'aicrtTextBox4
