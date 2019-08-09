@@ -97,16 +97,16 @@ Partial Class Form3
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(-13, 111)
+        Me.DataGridView1.Location = New System.Drawing.Point(-2, 111)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(749, 129)
+        Me.DataGridView1.Size = New System.Drawing.Size(919, 248)
         Me.DataGridView1.TabIndex = 16
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(441, 243)
+        Me.Label1.Location = New System.Drawing.Point(593, 374)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(154, 31)
         Me.Label1.TabIndex = 17
@@ -115,7 +115,7 @@ Partial Class Form3
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(601, 250)
+        Me.PictureBox1.Location = New System.Drawing.Point(753, 374)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(135, 29)
         Me.PictureBox1.TabIndex = 18
@@ -126,7 +126,7 @@ Partial Class Form3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(733, 278)
+        Me.ClientSize = New System.Drawing.Size(918, 414)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
