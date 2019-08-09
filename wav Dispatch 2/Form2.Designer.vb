@@ -251,7 +251,7 @@ Partial Class Form2
         Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AircraftType.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
-        Me.AircraftType.Location = New System.Drawing.Point(0, 0)
+        Me.AircraftType.Location = New System.Drawing.Point(-3, 0)
         Me.AircraftType.Name = "AircraftType"
         Me.AircraftType.Size = New System.Drawing.Size(1080, 30)
         Me.AircraftType.TabIndex = 36
