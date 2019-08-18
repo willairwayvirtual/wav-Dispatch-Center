@@ -53,7 +53,7 @@ Partial Class Form2
         Me.baggageTextBox21 = New System.Windows.Forms.TextBox()
         Me.infantsTextBox20 = New System.Windows.Forms.TextBox()
         Me.childrenTextBox19 = New System.Windows.Forms.TextBox()
-        Me.aduiltesTextBox18 = New System.Windows.Forms.TextBox()
+        Me.adultsTextBox18 = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
@@ -161,7 +161,7 @@ Partial Class Form2
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(1080, 37)
+        Me.Panel6.Size = New System.Drawing.Size(1080, 115)
         Me.Panel6.TabIndex = 31
         '
         'Label44
@@ -169,18 +169,18 @@ Partial Class Form2
         Me.Label44.AutoSize = True
         Me.Label44.Location = New System.Drawing.Point(176, 42)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(103, 13)
+        Me.Label44.Size = New System.Drawing.Size(81, 13)
         Me.Label44.TabIndex = 45
-        Me.Label44.Text = "ALTERNATE Route"
+        Me.Label44.Text = "Alternate Route"
         '
         'Label43
         '
         Me.Label43.AutoSize = True
         Me.Label43.Location = New System.Drawing.Point(11, 42)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(122, 13)
+        Me.Label43.Size = New System.Drawing.Size(82, 13)
         Me.Label43.TabIndex = 44
-        Me.Label43.Text = "ALTERNATE AIRTPOR"
+        Me.Label43.Text = "Alternate Airport"
         '
         'RouteTextBox2
         '
@@ -208,7 +208,7 @@ Partial Class Form2
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
         Me.alternates.Location = New System.Drawing.Point(10, 0)
         Me.alternates.Name = "alternates"
-        Me.alternates.Size = New System.Drawing.Size(1080, 30)
+        Me.alternates.Size = New System.Drawing.Size(1080, 34)
         Me.alternates.TabIndex = 39
         Me.alternates.Text = "alternates"
         Me.alternates.UseVisualStyleBackColor = False
@@ -240,7 +240,7 @@ Partial Class Form2
         Me.flightinfo.ForeColor = System.Drawing.Color.DarkRed
         Me.flightinfo.Location = New System.Drawing.Point(-1, -3)
         Me.flightinfo.Name = "flightinfo"
-        Me.flightinfo.Size = New System.Drawing.Size(1080, 30)
+        Me.flightinfo.Size = New System.Drawing.Size(1080, 31)
         Me.flightinfo.TabIndex = 35
         Me.flightinfo.Text = "Flight Info"
         Me.flightinfo.UseVisualStyleBackColor = False
@@ -266,7 +266,7 @@ Partial Class Form2
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
         Me.PAYLOAD.Location = New System.Drawing.Point(0, 0)
         Me.PAYLOAD.Name = "PAYLOAD"
-        Me.PAYLOAD.Size = New System.Drawing.Size(1070, 30)
+        Me.PAYLOAD.Size = New System.Drawing.Size(1070, 31)
         Me.PAYLOAD.TabIndex = 37
         Me.PAYLOAD.Text = "PAYLOAD"
         Me.PAYLOAD.UseVisualStyleBackColor = False
@@ -291,7 +291,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 33)
+        Me.Panel1.Size = New System.Drawing.Size(1081, 119)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
@@ -313,7 +313,7 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.baggageTextBox21)
         Me.Panel2.Controls.Add(Me.infantsTextBox20)
         Me.Panel2.Controls.Add(Me.childrenTextBox19)
-        Me.Panel2.Controls.Add(Me.aduiltesTextBox18)
+        Me.Panel2.Controls.Add(Me.adultsTextBox18)
         Me.Panel2.Controls.Add(Me.Label13)
         Me.Panel2.Controls.Add(Me.Label35)
         Me.Panel2.Controls.Add(Me.Label36)
@@ -325,7 +325,7 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.Label42)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1080, 31)
+        Me.Panel2.Size = New System.Drawing.Size(1080, 96)
         Me.Panel2.TabIndex = 41
         '
         'FuelTextBox25
@@ -377,12 +377,12 @@ Partial Class Form2
         Me.childrenTextBox19.Size = New System.Drawing.Size(68, 20)
         Me.childrenTextBox19.TabIndex = 59
         '
-        'aduiltesTextBox18
+        'adultsTextBox18
         '
-        Me.aduiltesTextBox18.Location = New System.Drawing.Point(-1, 67)
-        Me.aduiltesTextBox18.Name = "aduiltesTextBox18"
-        Me.aduiltesTextBox18.Size = New System.Drawing.Size(68, 20)
-        Me.aduiltesTextBox18.TabIndex = 58
+        Me.adultsTextBox18.Location = New System.Drawing.Point(-1, 67)
+        Me.adultsTextBox18.Name = "adultsTextBox18"
+        Me.adultsTextBox18.Size = New System.Drawing.Size(68, 20)
+        Me.adultsTextBox18.TabIndex = 58
         '
         'Label13
         '
@@ -460,9 +460,9 @@ Partial Class Form2
         Me.Label42.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.Location = New System.Drawing.Point(-2, 44)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(69, 21)
+        Me.Label42.Size = New System.Drawing.Size(56, 21)
         Me.Label42.TabIndex = 49
-        Me.Label42.Text = "aduiltes"
+        Me.Label42.Text = "adults"
         '
         'Panel3
         '
@@ -482,7 +482,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1080, 31)
+        Me.Panel3.Size = New System.Drawing.Size(1080, 88)
         Me.Panel3.TabIndex = 42
         '
         'aicrtTextBox4
@@ -536,7 +536,7 @@ Partial Class Form2
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(93, 20)
         Me.Label24.TabIndex = 54
-        Me.Label24.Text = "max landind"
+        Me.Label24.Text = "max landing"
         '
         'Label25
         '
@@ -619,7 +619,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(1, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1101, 28)
+        Me.Panel4.Size = New System.Drawing.Size(1101, 88)
         Me.Panel4.TabIndex = 43
         '
         'opeTextBox3
@@ -941,7 +941,7 @@ Partial Class Form2
     Friend WithEvents baggageTextBox21 As TextBox
     Friend WithEvents infantsTextBox20 As TextBox
     Friend WithEvents childrenTextBox19 As TextBox
-    Friend WithEvents aduiltesTextBox18 As TextBox
+    Friend WithEvents adultsTextBox18 As TextBox
     Friend WithEvents lanTextBox17 As TextBox
     Friend WithEvents takeTextBox16 As TextBox
     Friend WithEvents cruiseTextBox15 As TextBox

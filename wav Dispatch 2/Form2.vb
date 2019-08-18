@@ -1,4 +1,10 @@
-﻿Public Class Form2
+﻿Imports System.Data.OleDb
+Public Class Form2
+    Dim provider As String
+    Dim dataFile As String
+    Dim connString As String
+    Dim conn As OleDbConnection = New OleDbConnection
+
     ' pl1 = panel4 height
     Dim pl1 As Integer = 30
     ' pl2 = panel3 height
@@ -167,4 +173,58 @@
         Timer5.Stop()
         pl5 = 30
     End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        conn.Close()
+        provider = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source ="
+        'Change the following to your access database location
+        dataFile = "C:\VisStudioProj\wav web\willairwayvirtual34\willairwayvirtual34\app_data\willairwayvirtualDBv1.accdb"
+        connString = provider & dataFile
+        conn.ConnectionString = connString
+        conn.Open()
+
+        Dim savenew As String = "INSERT INTO [wavvirtdispatch]  (airline,flight,callsign,dep,arr,takeoff,land,taxiout,taxiin,ope,dte,ett,aicrt,type,climb,cruise,maxtakeoff,maxlanding,adults,children,infants,baggage,cargo,zerofuel,maxzerofuel,fuel,route,altairport,altairroute) values('" &
+      AirlinetextBox4.Text & "','" &
+      FlightTextBox5.Text & "','" &
+      CallsignTextBox6.Text & "','" &
+      depTextBox1.Text & "','" &
+      arrTextBox2.Text & "','" &
+      TakeoffTextBox7.Text & "','" &
+      LandTextBox8.Text & "','" &
+      taxioutTextBox9.Text & "','" &
+     taxiinTextBox10.Text & "','" &
+     opeTextBox3.Text & "','" &
+     dteTextBox11.Text & "','" &
+     ettTextBox12.Text & "','" &
+     aicrtTextBox4.Text & "','" &
+     typeTextBox13.Text & "','" &
+    climbTextBox14.Text & "','" &
+     cruiseTextBox15.Text & "','" &
+     takeTextBox16.Text & "','" &
+   lanTextBox17.Text & "','" &
+  adultsTextBox18.Text & "','" &
+   childrenTextBox19.Text & "','" &
+  infantsTextBox20.Text & "','" &
+  baggageTextBox21.Text & "','" &
+   cargoTextBox22.Text & "','" &
+  zeroTextBox23.Text & "','" &
+maxTextBox24.Text & "','" &
+  FuelTextBox25.Text & "','" &
+   RouteTextBox1.Text & "','" &
+    AIRTPORTextBox3.Text & "','" &
+      RouteTextBox2.Text & "');"
+
+        Dim cmd As New OleDbCommand
+
+        With cmd
+            .CommandText = savenew
+            .Connection = conn
+            .ExecuteNonQuery()
+        End With
+        MessageBox.Show("Please Wait")
+
+        conn.Close()
+
+    End Sub
+
 End Class
