@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wav Dispatch 2", "wav Dispatch 2\wav Dispatch 2.vbproj", "{64038746-E6F8-488A-9E4E-E0EC72372B93}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "wav Dispatch", "..\..\InstallerProjects\wav Dispatch\wav Dispatch.vdproj", "{739BB5E7-6730-4746-B826-0D11E1BC0C2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{64038746-E6F8-488A-9E4E-E0EC72372B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64038746-E6F8-488A-9E4E-E0EC72372B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64038746-E6F8-488A-9E4E-E0EC72372B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739BB5E7-6730-4746-B826-0D11E1BC0C2E}.Debug|Any CPU.ActiveCfg = Debug
+		{739BB5E7-6730-4746-B826-0D11E1BC0C2E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
