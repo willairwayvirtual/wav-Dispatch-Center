@@ -102,6 +102,8 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -240,7 +242,7 @@ Partial Class Form2
         Me.flightinfo.ForeColor = System.Drawing.Color.DarkRed
         Me.flightinfo.Location = New System.Drawing.Point(-1, -3)
         Me.flightinfo.Name = "flightinfo"
-        Me.flightinfo.Size = New System.Drawing.Size(1080, 31)
+        Me.flightinfo.Size = New System.Drawing.Size(1080, 27)
         Me.flightinfo.TabIndex = 35
         Me.flightinfo.Text = "Flight Info"
         Me.flightinfo.UseVisualStyleBackColor = False
@@ -592,6 +594,8 @@ Partial Class Form2
         '
         Me.Panel4.BackColor = System.Drawing.Color.Silver
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.Label18)
+        Me.Panel4.Controls.Add(Me.Label17)
         Me.Panel4.Controls.Add(Me.opeTextBox3)
         Me.Panel4.Controls.Add(Me.arrTextBox2)
         Me.Panel4.Controls.Add(Me.depTextBox1)
@@ -617,9 +621,9 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label6)
         Me.Panel4.Controls.Add(Me.Label5)
         Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Location = New System.Drawing.Point(1, 66)
+        Me.Panel4.Location = New System.Drawing.Point(-5, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1101, 88)
+        Me.Panel4.Size = New System.Drawing.Size(1107, 99)
         Me.Panel4.TabIndex = 43
         '
         'opeTextBox3
@@ -699,7 +703,7 @@ Partial Class Form2
         'FlightTextBox5
         '
         Me.FlightTextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FlightTextBox5.Location = New System.Drawing.Point(77, 56)
+        Me.FlightTextBox5.Location = New System.Drawing.Point(78, 58)
         Me.FlightTextBox5.Name = "FlightTextBox5"
         Me.FlightTextBox5.Size = New System.Drawing.Size(67, 20)
         Me.FlightTextBox5.TabIndex = 50
@@ -707,7 +711,7 @@ Partial Class Form2
         'AirlinetextBox4
         '
         Me.AirlinetextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AirlinetextBox4.Location = New System.Drawing.Point(1, 56)
+        Me.AirlinetextBox4.Location = New System.Drawing.Point(7, 58)
         Me.AirlinetextBox4.Name = "AirlinetextBox4"
         Me.AirlinetextBox4.Size = New System.Drawing.Size(65, 20)
         Me.AirlinetextBox4.TabIndex = 49
@@ -726,7 +730,7 @@ Partial Class Form2
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(932, 30)
+        Me.Label15.Location = New System.Drawing.Point(942, 40)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(35, 20)
         Me.Label15.TabIndex = 47
@@ -736,7 +740,7 @@ Partial Class Form2
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(784, 26)
+        Me.Label14.Location = New System.Drawing.Point(783, 34)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(128, 20)
         Me.Label14.TabIndex = 46
@@ -806,7 +810,7 @@ Partial Class Form2
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(146, 31)
+        Me.Label6.Location = New System.Drawing.Point(143, 36)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(61, 19)
         Me.Label6.TabIndex = 38
@@ -816,7 +820,7 @@ Partial Class Form2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(91, 30)
+        Me.Label5.Location = New System.Drawing.Point(90, 36)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 19)
         Me.Label5.TabIndex = 37
@@ -826,7 +830,7 @@ Partial Class Form2
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(3, 35)
+        Me.Label4.Location = New System.Drawing.Point(9, 41)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(51, 19)
         Me.Label4.TabIndex = 36
@@ -845,6 +849,24 @@ Partial Class Form2
         '
         'Timer5
         '
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(943, 27)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(62, 13)
+        Me.Label17.TabIndex = 64
+        Me.Label17.Text = "todays date"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(4, 27)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(81, 13)
+        Me.Label18.TabIndex = 65
+        Me.Label18.Text = "please use wav"
         '
         'Form2
         '
@@ -960,4 +982,6 @@ Partial Class Form2
     Friend WithEvents depTextBox1 As TextBox
     Friend WithEvents aicrtTextBox4 As TextBox
     Friend WithEvents Timer5 As Timer
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label17 As Label
 End Class
