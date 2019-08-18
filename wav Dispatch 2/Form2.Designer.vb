@@ -720,7 +720,7 @@ Partial Class Form2
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(1041, 30)
+        Me.Label16.Location = New System.Drawing.Point(1031, 40)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(28, 20)
         Me.Label16.TabIndex = 48
@@ -730,7 +730,7 @@ Partial Class Form2
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(942, 40)
+        Me.Label15.Location = New System.Drawing.Point(954, 41)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(35, 20)
         Me.Label15.TabIndex = 47
@@ -853,11 +853,11 @@ Partial Class Form2
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(943, 27)
+        Me.Label17.Location = New System.Drawing.Point(920, 27)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(62, 13)
+        Me.Label17.Size = New System.Drawing.Size(116, 13)
         Me.Label17.TabIndex = 64
-        Me.Label17.Text = "todays date"
+        Me.Label17.Text = "please use todays date"
         '
         'Label18
         '
