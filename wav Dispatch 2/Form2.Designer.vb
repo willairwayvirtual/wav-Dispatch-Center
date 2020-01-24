@@ -76,6 +76,8 @@ Partial Class Form2
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.opeTextBox3 = New System.Windows.Forms.TextBox()
         Me.arrTextBox2 = New System.Windows.Forms.TextBox()
         Me.depTextBox1 = New System.Windows.Forms.TextBox()
@@ -102,8 +104,6 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -163,7 +163,7 @@ Partial Class Form2
         Me.Panel6.Controls.Add(Me.alternates)
         Me.Panel6.Location = New System.Drawing.Point(-6, 495)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(1080, 115)
+        Me.Panel6.Size = New System.Drawing.Size(1098, 36)
         Me.Panel6.TabIndex = 31
         '
         'Label44
@@ -208,9 +208,9 @@ Partial Class Form2
         Me.alternates.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.alternates.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.alternates.ForeColor = System.Drawing.Color.DarkRed
-        Me.alternates.Location = New System.Drawing.Point(10, 0)
+        Me.alternates.Location = New System.Drawing.Point(-23, -1)
         Me.alternates.Name = "alternates"
-        Me.alternates.Size = New System.Drawing.Size(1080, 34)
+        Me.alternates.Size = New System.Drawing.Size(1164, 34)
         Me.alternates.TabIndex = 39
         Me.alternates.Text = "alternates"
         Me.alternates.UseVisualStyleBackColor = False
@@ -242,7 +242,7 @@ Partial Class Form2
         Me.flightinfo.ForeColor = System.Drawing.Color.DarkRed
         Me.flightinfo.Location = New System.Drawing.Point(-1, -3)
         Me.flightinfo.Name = "flightinfo"
-        Me.flightinfo.Size = New System.Drawing.Size(1080, 27)
+        Me.flightinfo.Size = New System.Drawing.Size(1107, 27)
         Me.flightinfo.TabIndex = 35
         Me.flightinfo.Text = "Flight Info"
         Me.flightinfo.UseVisualStyleBackColor = False
@@ -253,9 +253,9 @@ Partial Class Form2
         Me.AircraftType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AircraftType.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AircraftType.ForeColor = System.Drawing.Color.DarkRed
-        Me.AircraftType.Location = New System.Drawing.Point(-13, -2)
+        Me.AircraftType.Location = New System.Drawing.Point(-9, 3)
         Me.AircraftType.Name = "AircraftType"
-        Me.AircraftType.Size = New System.Drawing.Size(1080, 30)
+        Me.AircraftType.Size = New System.Drawing.Size(1098, 30)
         Me.AircraftType.TabIndex = 36
         Me.AircraftType.Text = "AircraftType"
         Me.AircraftType.UseVisualStyleBackColor = False
@@ -266,9 +266,9 @@ Partial Class Form2
         Me.PAYLOAD.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PAYLOAD.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PAYLOAD.ForeColor = System.Drawing.Color.DarkRed
-        Me.PAYLOAD.Location = New System.Drawing.Point(0, 0)
+        Me.PAYLOAD.Location = New System.Drawing.Point(3, 0)
         Me.PAYLOAD.Name = "PAYLOAD"
-        Me.PAYLOAD.Size = New System.Drawing.Size(1070, 31)
+        Me.PAYLOAD.Size = New System.Drawing.Size(1088, 31)
         Me.PAYLOAD.TabIndex = 37
         Me.PAYLOAD.Text = "PAYLOAD"
         Me.PAYLOAD.UseVisualStyleBackColor = False
@@ -279,9 +279,9 @@ Partial Class Form2
         Me.Route.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Route.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Route.ForeColor = System.Drawing.Color.DarkRed
-        Me.Route.Location = New System.Drawing.Point(3, 0)
+        Me.Route.Location = New System.Drawing.Point(-12, 0)
         Me.Route.Name = "Route"
-        Me.Route.Size = New System.Drawing.Size(1068, 30)
+        Me.Route.Size = New System.Drawing.Size(1110, 30)
         Me.Route.TabIndex = 38
         Me.Route.Text = "Route"
         Me.Route.UseVisualStyleBackColor = False
@@ -293,7 +293,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.Route)
         Me.Panel1.Location = New System.Drawing.Point(0, 370)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1081, 119)
+        Me.Panel1.Size = New System.Drawing.Size(1092, 30)
         Me.Panel1.TabIndex = 40
         '
         'RouteTextBox1
@@ -319,15 +319,15 @@ Partial Class Form2
         Me.Panel2.Controls.Add(Me.Label13)
         Me.Panel2.Controls.Add(Me.Label35)
         Me.Panel2.Controls.Add(Me.Label36)
-        Me.Panel2.Controls.Add(Me.PAYLOAD)
         Me.Panel2.Controls.Add(Me.Label37)
+        Me.Panel2.Controls.Add(Me.PAYLOAD)
         Me.Panel2.Controls.Add(Me.Label38)
         Me.Panel2.Controls.Add(Me.Label40)
         Me.Panel2.Controls.Add(Me.Label41)
         Me.Panel2.Controls.Add(Me.Label42)
         Me.Panel2.Location = New System.Drawing.Point(1, 256)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1080, 96)
+        Me.Panel2.Size = New System.Drawing.Size(1088, 34)
         Me.Panel2.TabIndex = 41
         '
         'FuelTextBox25
@@ -484,7 +484,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Location = New System.Drawing.Point(4, 162)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1080, 88)
+        Me.Panel3.Size = New System.Drawing.Size(1085, 30)
         Me.Panel3.TabIndex = 42
         '
         'aicrtTextBox4
@@ -623,8 +623,26 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(-5, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1107, 99)
+        Me.Panel4.Size = New System.Drawing.Size(1107, 24)
         Me.Panel4.TabIndex = 43
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(4, 27)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(81, 13)
+        Me.Label18.TabIndex = 65
+        Me.Label18.Text = "please use wav"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(920, 27)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(116, 13)
+        Me.Label17.TabIndex = 64
+        Me.Label17.Text = "please use todays date"
         '
         'opeTextBox3
         '
@@ -849,24 +867,6 @@ Partial Class Form2
         '
         'Timer5
         '
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(920, 27)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(116, 13)
-        Me.Label17.TabIndex = 64
-        Me.Label17.Text = "please use todays date"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(4, 27)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(81, 13)
-        Me.Label18.TabIndex = 65
-        Me.Label18.Text = "please use wav"
         '
         'Form2
         '
