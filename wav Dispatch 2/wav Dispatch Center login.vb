@@ -41,7 +41,8 @@ Public Class Form1
         'checking the result
         If userFound = True Then
 
-            Dim obj As New Form2
+            Dim obj As New Form4
+
 
             obj.Show()
             Me.Close()

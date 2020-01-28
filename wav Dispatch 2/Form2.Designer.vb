@@ -231,7 +231,7 @@ Partial Class Form2
         Me.logout.Name = "logout"
         Me.logout.Size = New System.Drawing.Size(262, 60)
         Me.logout.TabIndex = 34
-        Me.logout.Text = "logout"
+        Me.logout.Text = "departure board"
         Me.logout.UseVisualStyleBackColor = True
         '
         'flightinfo
