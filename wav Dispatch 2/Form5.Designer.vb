@@ -28,19 +28,21 @@ Partial Class Form5
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.DimGray
+        Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(958, 47)
+        Me.Panel1.Size = New System.Drawing.Size(1152, 47)
         Me.Panel1.TabIndex = 0
         '
         'Label1
@@ -56,16 +58,16 @@ Partial Class Form5
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(582, 18)
+        Me.TextBox1.Location = New System.Drawing.Point(602, 15)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(200, 29)
         Me.TextBox1.TabIndex = 1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(808, 15)
+        Me.Button1.Location = New System.Drawing.Point(808, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(138, 32)
+        Me.Button1.Size = New System.Drawing.Size(138, 44)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Search"
         Me.Button1.UseVisualStyleBackColor = True
@@ -78,15 +80,24 @@ Partial Class Form5
         Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 47)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(958, 403)
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1152, 403)
         Me.CrystalReportViewer1.TabIndex = 1
         Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(952, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(200, 46)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "back to departure board"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(958, 450)
+        Me.ClientSize = New System.Drawing.Size(1152, 450)
         Me.Controls.Add(Me.CrystalReportViewer1)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -103,4 +114,5 @@ Partial Class Form5
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
+    Friend WithEvents Button2 As Button
 End Class
