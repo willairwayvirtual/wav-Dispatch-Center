@@ -24,11 +24,11 @@ Partial Class Form5
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,15 +45,23 @@ Partial Class Form5
         Me.Panel1.Size = New System.Drawing.Size(1152, 47)
         Me.Panel1.TabIndex = 0
         '
-        'Label1
+        'Button2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(535, 39)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Welcome to Flight Briefing Center" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button2.Location = New System.Drawing.Point(952, 0)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(200, 49)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "back to departure board"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(808, 0)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(159, 49)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Search"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
@@ -63,14 +71,15 @@ Partial Class Form5
         Me.TextBox1.Size = New System.Drawing.Size(200, 29)
         Me.TextBox1.TabIndex = 1
         '
-        'Button1
+        'Label1
         '
-        Me.Button1.Location = New System.Drawing.Point(808, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(138, 44)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Search"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(3, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(535, 39)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Welcome to Flight Briefing Center" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'CrystalReportViewer1
         '
@@ -83,15 +92,6 @@ Partial Class Form5
         Me.CrystalReportViewer1.Size = New System.Drawing.Size(1152, 403)
         Me.CrystalReportViewer1.TabIndex = 1
         Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(952, 3)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(200, 46)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "back to departure board"
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form5
         '
