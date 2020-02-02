@@ -25,9 +25,12 @@ Partial Class Form4
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.UnameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.LastnameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ReportingtimeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.RepfltdeckBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
+        Me.RepfltdeckTableAdapter = New wav_Dispatch_2.willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.FlightNumberDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DepArptDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DepGateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -36,12 +39,6 @@ Partial Class Form4
         Me.StatusDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.TypeOfOperationDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.OperationDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.RepfltdeckBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
-        Me.RepfltdeckTableAdapter = New wav_Dispatch_2.willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RepfltdeckBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,30 +48,53 @@ Partial Class Form4
         '
         Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.UnameDataGridViewTextBoxColumn, Me.LastnameDataGridViewTextBoxColumn, Me.ReportingtimeDataGridViewTextBoxColumn, Me.FlightNumberDataGridViewTextBoxColumn, Me.DepArptDataGridViewTextBoxColumn, Me.DepGateDataGridViewTextBoxColumn, Me.ArrArptDataGridViewTextBoxColumn, Me.ArrGateDataGridViewTextBoxColumn, Me.StatusDataGridViewTextBoxColumn, Me.TypeOfOperationDataGridViewTextBoxColumn, Me.OperationDataGridViewTextBoxColumn})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.FlightNumberDataGridViewTextBoxColumn, Me.DepArptDataGridViewTextBoxColumn, Me.DepGateDataGridViewTextBoxColumn, Me.ArrArptDataGridViewTextBoxColumn, Me.ArrGateDataGridViewTextBoxColumn, Me.StatusDataGridViewTextBoxColumn, Me.TypeOfOperationDataGridViewTextBoxColumn, Me.OperationDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.RepfltdeckBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(2, 1)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(1362, 300)
         Me.DataGridView1.TabIndex = 0
         '
-        'UnameDataGridViewTextBoxColumn
+        'RepfltdeckBindingSource
         '
-        Me.UnameDataGridViewTextBoxColumn.DataPropertyName = "Uname"
-        Me.UnameDataGridViewTextBoxColumn.HeaderText = "Uname"
-        Me.UnameDataGridViewTextBoxColumn.Name = "UnameDataGridViewTextBoxColumn"
+        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
+        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
         '
-        'LastnameDataGridViewTextBoxColumn
+        'WillairwayvirtualDbv1DataSet
         '
-        Me.LastnameDataGridViewTextBoxColumn.DataPropertyName = "lastname"
-        Me.LastnameDataGridViewTextBoxColumn.HeaderText = "lastname"
-        Me.LastnameDataGridViewTextBoxColumn.Name = "LastnameDataGridViewTextBoxColumn"
+        Me.WillairwayvirtualDbv1DataSet.DataSetName = "willairwayvirtualDbv1DataSet"
+        Me.WillairwayvirtualDbv1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
-        'ReportingtimeDataGridViewTextBoxColumn
+        'RepfltdeckTableAdapter
         '
-        Me.ReportingtimeDataGridViewTextBoxColumn.DataPropertyName = "reportingtime"
-        Me.ReportingtimeDataGridViewTextBoxColumn.HeaderText = "reportingtime"
-        Me.ReportingtimeDataGridViewTextBoxColumn.Name = "ReportingtimeDataGridViewTextBoxColumn"
+        Me.RepfltdeckTableAdapter.ClearBeforeFill = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(2, 307)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(432, 54)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Dispatch a new flignt"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(440, 307)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(476, 54)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Flight Briefing Package"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(922, 307)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(442, 54)
+        Me.Button3.TabIndex = 3
+        Me.Button3.Text = "log out"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'FlightNumberDataGridViewTextBoxColumn
         '
@@ -124,47 +144,6 @@ Partial Class Form4
         Me.OperationDataGridViewTextBoxColumn.HeaderText = "operation"
         Me.OperationDataGridViewTextBoxColumn.Name = "OperationDataGridViewTextBoxColumn"
         '
-        'RepfltdeckBindingSource
-        '
-        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
-        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
-        '
-        'WillairwayvirtualDbv1DataSet
-        '
-        Me.WillairwayvirtualDbv1DataSet.DataSetName = "willairwayvirtualDbv1DataSet"
-        Me.WillairwayvirtualDbv1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'RepfltdeckTableAdapter
-        '
-        Me.RepfltdeckTableAdapter.ClearBeforeFill = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(2, 307)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(432, 54)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Dispatch a new flignt"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(440, 307)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(476, 54)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Flight Briefing Package"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(922, 307)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(442, 54)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "log out"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -189,9 +168,9 @@ Partial Class Form4
     Friend WithEvents WillairwayvirtualDbv1DataSet As willairwayvirtualDbv1DataSet
     Friend WithEvents RepfltdeckBindingSource As BindingSource
     Friend WithEvents RepfltdeckTableAdapter As willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter
-    Friend WithEvents UnameDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents LastnameDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents ReportingtimeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
     Friend WithEvents FlightNumberDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents DepArptDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents DepGateDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
@@ -200,7 +179,4 @@ Partial Class Form4
     Friend WithEvents StatusDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents TypeOfOperationDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents OperationDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
 End Class
