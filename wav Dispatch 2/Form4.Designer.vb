@@ -71,27 +71,27 @@ Partial Class Form4
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(2, 307)
+        Me.Button1.Location = New System.Drawing.Point(2, 297)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(432, 54)
+        Me.Button1.Size = New System.Drawing.Size(443, 64)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Dispatch a new flignt"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(440, 307)
+        Me.Button2.Location = New System.Drawing.Point(440, 297)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(476, 54)
+        Me.Button2.Size = New System.Drawing.Size(483, 64)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Flight Briefing Package"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(922, 307)
+        Me.Button3.Location = New System.Drawing.Point(916, 297)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(442, 54)
+        Me.Button3.Size = New System.Drawing.Size(448, 64)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "log out"
         Me.Button3.UseVisualStyleBackColor = True
@@ -148,7 +148,7 @@ Partial Class Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1364, 382)
+        Me.ClientSize = New System.Drawing.Size(1364, 365)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
