@@ -24,9 +24,10 @@ Partial Class Form5
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Search = New System.Windows.Forms.Button()
+        Me.TextBoxkeyword = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.Panel1.SuspendLayout()
@@ -35,47 +36,58 @@ Partial Class Form5
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.DimGray
+        Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.Search)
+        Me.Panel1.Controls.Add(Me.TextBoxkeyword)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1152, 47)
+        Me.Panel1.Size = New System.Drawing.Size(1152, 58)
         Me.Panel1.TabIndex = 0
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(4, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(198, 20)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Please enter flight number " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(952, 0)
+        Me.Button2.Location = New System.Drawing.Point(967, 0)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(200, 49)
+        Me.Button2.Size = New System.Drawing.Size(206, 55)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "back to departure board"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button1
+        'Search
         '
-        Me.Button1.Location = New System.Drawing.Point(808, 0)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(159, 49)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Search"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Search.Location = New System.Drawing.Point(808, 0)
+        Me.Search.Name = "Search"
+        Me.Search.Size = New System.Drawing.Size(159, 55)
+        Me.Search.TabIndex = 2
+        Me.Search.Text = "Search"
+        Me.Search.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'TextBoxkeyword
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(602, 15)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(200, 29)
-        Me.TextBox1.TabIndex = 1
+        Me.TextBoxkeyword.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxkeyword.Location = New System.Drawing.Point(602, 23)
+        Me.TextBoxkeyword.Name = "TextBoxkeyword"
+        Me.TextBoxkeyword.Size = New System.Drawing.Size(200, 29)
+        Me.TextBoxkeyword.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
+        Me.Label1.Location = New System.Drawing.Point(3, 16)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(535, 39)
         Me.Label1.TabIndex = 0
@@ -87,9 +99,9 @@ Partial Class Form5
         Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
         Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 47)
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 58)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1152, 403)
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1152, 392)
         Me.CrystalReportViewer1.TabIndex = 1
         Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
@@ -111,8 +123,9 @@ Partial Class Form5
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Search As Button
+    Friend WithEvents TextBoxkeyword As TextBox
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label2 As Label
 End Class

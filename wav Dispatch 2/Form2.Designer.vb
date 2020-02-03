@@ -240,9 +240,9 @@ Partial Class Form2
         Me.flightinfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.flightinfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.flightinfo.ForeColor = System.Drawing.Color.DarkRed
-        Me.flightinfo.Location = New System.Drawing.Point(-1, -3)
+        Me.flightinfo.Location = New System.Drawing.Point(-14, -8)
         Me.flightinfo.Name = "flightinfo"
-        Me.flightinfo.Size = New System.Drawing.Size(1107, 27)
+        Me.flightinfo.Size = New System.Drawing.Size(1107, 36)
         Me.flightinfo.TabIndex = 35
         Me.flightinfo.Text = "Flight Info"
         Me.flightinfo.UseVisualStyleBackColor = False
@@ -605,9 +605,9 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.taxioutTextBox9)
         Me.Panel4.Controls.Add(Me.LandTextBox8)
         Me.Panel4.Controls.Add(Me.TakeoffTextBox7)
+        Me.Panel4.Controls.Add(Me.flightinfo)
         Me.Panel4.Controls.Add(Me.CallsignTextBox6)
         Me.Panel4.Controls.Add(Me.FlightTextBox5)
-        Me.Panel4.Controls.Add(Me.flightinfo)
         Me.Panel4.Controls.Add(Me.AirlinetextBox4)
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Controls.Add(Me.Label15)
@@ -623,7 +623,7 @@ Partial Class Form2
         Me.Panel4.Controls.Add(Me.Label4)
         Me.Panel4.Location = New System.Drawing.Point(-5, 66)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1107, 24)
+        Me.Panel4.Size = New System.Drawing.Size(1107, 25)
         Me.Panel4.TabIndex = 43
         '
         'Label18
