@@ -221,7 +221,7 @@ maxTextBox24.Text & "','" &
             .Connection = conn
             .ExecuteNonQuery()
         End With
-        MessageBox.Show("Please Wait")
+        MessageBox.Show("Please Wait.  Please go to the Briefing Center to get the flight plan")
 
         conn.Close()
 
