@@ -25,12 +25,6 @@ Partial Class Form4
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.RepfltdeckBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
-        Me.RepfltdeckTableAdapter = New wav_Dispatch_2.willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.FlightNumberDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DepArptDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DepGateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -39,6 +33,12 @@ Partial Class Form4
         Me.StatusDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.TypeOfOperationDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.OperationDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.RepfltdeckBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
+        Me.RepfltdeckTableAdapter = New wav_Dispatch_2.willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RepfltdeckBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,47 +54,6 @@ Partial Class Form4
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(1362, 300)
         Me.DataGridView1.TabIndex = 0
-        '
-        'RepfltdeckBindingSource
-        '
-        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
-        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
-        '
-        'WillairwayvirtualDbv1DataSet
-        '
-        Me.WillairwayvirtualDbv1DataSet.DataSetName = "willairwayvirtualDbv1DataSet"
-        Me.WillairwayvirtualDbv1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'RepfltdeckTableAdapter
-        '
-        Me.RepfltdeckTableAdapter.ClearBeforeFill = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(2, 297)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(443, 64)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Dispatch a new flignt"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(440, 297)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(483, 64)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Flight Briefing Package"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(916, 297)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(448, 64)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "log out"
-        Me.Button3.UseVisualStyleBackColor = True
         '
         'FlightNumberDataGridViewTextBoxColumn
         '
@@ -144,6 +103,47 @@ Partial Class Form4
         Me.OperationDataGridViewTextBoxColumn.HeaderText = "operation"
         Me.OperationDataGridViewTextBoxColumn.Name = "OperationDataGridViewTextBoxColumn"
         '
+        'RepfltdeckBindingSource
+        '
+        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
+        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
+        '
+        'WillairwayvirtualDbv1DataSet
+        '
+        Me.WillairwayvirtualDbv1DataSet.DataSetName = "willairwayvirtualDbv1DataSet"
+        Me.WillairwayvirtualDbv1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'RepfltdeckTableAdapter
+        '
+        Me.RepfltdeckTableAdapter.ClearBeforeFill = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(2, 297)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(443, 64)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Dispatch a new flignt"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(440, 297)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(483, 64)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Flight Briefing Package"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(916, 297)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(448, 64)
+        Me.Button3.TabIndex = 3
+        Me.Button3.Text = "log out"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -153,7 +153,7 @@ Partial Class Form4
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form4"
         Me.Text = "Form4"
