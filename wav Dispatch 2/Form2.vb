@@ -30,7 +30,7 @@ Public Class Form2
 
         Else
             Me.Panel4.Size = New Size(Me.Panel4.Size.Width, pl1)
-            pl1 += 10
+            pl1 += 17
         End If
 
     End Sub
@@ -44,7 +44,7 @@ Public Class Form2
 
         Else
             Me.Panel3.Size = New Size(Me.Panel3.Size.Width, pl2)
-            pl2 += 10
+            pl2 += 17
         End If
 
     End Sub
@@ -58,7 +58,7 @@ Public Class Form2
 
         Else
             Me.Panel2.Size = New Size(Me.Panel2.Size.Width, pl3)
-            pl3 += 10
+            pl3 += 17
         End If
 
     End Sub
@@ -71,7 +71,7 @@ Public Class Form2
 
         Else
             Me.Panel1.Size = New Size(Me.Panel1.Size.Width, pl4)
-            pl4 += 10
+            pl4 += 17
         End If
     End Sub
     Private Sub Timer5_tick(sender As Object, e As EventArgs) Handles Timer5.Tick
@@ -83,7 +83,7 @@ Public Class Form2
 
         Else
             Me.Panel6.Size = New Size(Me.Panel6.Size.Width, pl5)
-            pl5 += 10
+            pl5 += 17
         End If
 
     End Sub
