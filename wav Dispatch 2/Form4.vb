@@ -1,5 +1,6 @@
 ﻿Public Class Form4
-    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Public Property stringtext1 As String
+    Private Sub Form4Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'WillairwayvirtualDbv1DataSet.repfltdeck' table. You can move, or remove it, as needed.
         Me.RepfltdeckTableAdapter.Fill(Me.WillairwayvirtualDbv1DataSet.repfltdeck)
 
@@ -20,4 +21,9 @@
         Form5.Show()
         Me.Close()
     End Sub
+
+    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Label1.Text = stringtext1
+    End Sub
+    
 End Class

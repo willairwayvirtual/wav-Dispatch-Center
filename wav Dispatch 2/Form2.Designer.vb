@@ -104,11 +104,16 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -860,7 +865,7 @@ Partial Class Form2
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
         Me.Button12.Location = New System.Drawing.Point(0, 625)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(1089, 69)
+        Me.Button12.Size = New System.Drawing.Size(1126, 69)
         Me.Button12.TabIndex = 44
         Me.Button12.Text = "complete flight"
         Me.Button12.UseVisualStyleBackColor = True
@@ -868,12 +873,41 @@ Partial Class Form2
         'Timer5
         '
         '
+        'Panel5
+        '
+        Me.Panel5.Controls.Add(Me.DateTimePicker1)
+        Me.Panel5.Controls.Add(Me.PictureBox1)
+        Me.Panel5.Location = New System.Drawing.Point(712, 714)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(386, 39)
+        Me.Panel5.TabIndex = 45
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(82, 51)
+        Me.PictureBox1.TabIndex = 81
+        Me.PictureBox1.TabStop = False
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.AllowDrop = True
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker1.Location = New System.Drawing.Point(91, 16)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(299, 20)
+        Me.DateTimePicker1.TabIndex = 82
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(1095, 681)
+        Me.ClientSize = New System.Drawing.Size(1108, 765)
+        Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
@@ -899,6 +933,8 @@ Partial Class Form2
         Me.Panel3.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -984,4 +1020,7 @@ Partial Class Form2
     Friend WithEvents Timer5 As Timer
     Friend WithEvents Label18 As Label
     Friend WithEvents Label17 As Label
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class

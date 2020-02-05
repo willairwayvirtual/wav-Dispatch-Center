@@ -42,6 +42,9 @@ Public Class Form1
         If userFound = True Then
 
             Dim obj As New Form4
+            obj.stringtext1 = "Hi " & txtUsername.Text & " " & Status & " Member " & "Total Flying Time " & totalHours &
+                " Hours Last flight " & lastflight
+            obj.Show()
 
 
             obj.Show()

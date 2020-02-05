@@ -203,6 +203,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\bjnhy68.PNG" />
     <Content Include="wavicon.ico" />
     <Content Include="willairwayvirtualDbv1.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

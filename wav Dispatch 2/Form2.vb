@@ -1,5 +1,6 @@
 ﻿Imports System.Data.OleDb
 Public Class Form2
+    Public Property stringtext1 As String
     Dim provider As String
     Dim dataFile As String
     Dim connString As String
@@ -227,4 +228,7 @@ maxTextBox24.Text & "','" &
 
     End Sub
 
+    Private Sub Label19_Leave(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
