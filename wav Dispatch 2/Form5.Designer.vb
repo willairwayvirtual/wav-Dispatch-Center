@@ -66,7 +66,7 @@ Partial Class Form5
         '
         Me.Button2.Location = New System.Drawing.Point(967, 0)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(206, 55)
+        Me.Button2.Size = New System.Drawing.Size(214, 55)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "back to departure board"
         Me.Button2.UseVisualStyleBackColor = True
