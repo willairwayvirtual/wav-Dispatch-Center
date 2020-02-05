@@ -66,16 +66,16 @@ Partial Class Form5
         '
         Me.Button2.Location = New System.Drawing.Point(967, 0)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(214, 55)
+        Me.Button2.Size = New System.Drawing.Size(241, 58)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "back to departure board"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Search
         '
-        Me.Search.Location = New System.Drawing.Point(808, 0)
+        Me.Search.Location = New System.Drawing.Point(808, -12)
         Me.Search.Name = "Search"
-        Me.Search.Size = New System.Drawing.Size(159, 55)
+        Me.Search.Size = New System.Drawing.Size(165, 70)
         Me.Search.TabIndex = 2
         Me.Search.Text = "Search"
         Me.Search.UseVisualStyleBackColor = True
