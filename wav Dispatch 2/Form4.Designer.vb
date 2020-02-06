@@ -61,11 +61,11 @@ Partial Class Form4
         'DateTimePicker1
         '
         Me.DateTimePicker1.AllowDrop = True
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker1.Location = New System.Drawing.Point(938, 8)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(939, 3)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(273, 20)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(273, 40)
         Me.DateTimePicker1.TabIndex = 82
         '
         'RepfltdeckBindingSource
