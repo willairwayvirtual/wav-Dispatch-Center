@@ -105,8 +105,8 @@ Partial Class Form2
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -232,11 +232,11 @@ Partial Class Form2
         '
         'logout
         '
-        Me.logout.Location = New System.Drawing.Point(3, 3)
+        Me.logout.Location = New System.Drawing.Point(-29, 0)
         Me.logout.Name = "logout"
         Me.logout.Size = New System.Drawing.Size(262, 60)
         Me.logout.TabIndex = 34
-        Me.logout.Text = "back to departure board"
+        Me.logout.Text = "back to  Dispatch menu"
         Me.logout.UseVisualStyleBackColor = True
         '
         'flightinfo
@@ -882,15 +882,6 @@ Partial Class Form2
         Me.Panel5.Size = New System.Drawing.Size(386, 39)
         Me.Panel5.TabIndex = 45
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(82, 51)
-        Me.PictureBox1.TabIndex = 81
-        Me.PictureBox1.TabStop = False
-        '
         'DateTimePicker1
         '
         Me.DateTimePicker1.AllowDrop = True
@@ -900,6 +891,15 @@ Partial Class Form2
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(299, 20)
         Me.DateTimePicker1.TabIndex = 82
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(82, 51)
+        Me.PictureBox1.TabIndex = 81
+        Me.PictureBox1.TabStop = False
         '
         'Form2
         '

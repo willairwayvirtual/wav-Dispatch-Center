@@ -31,8 +31,8 @@ Partial Class Form5
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,7 +68,7 @@ Partial Class Form5
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(241, 58)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "back to departure board"
+        Me.Button2.Text = "back to  Dispatch menu"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Search
@@ -120,15 +120,6 @@ Partial Class Form5
         Me.Panel2.Size = New System.Drawing.Size(244, 39)
         Me.Panel2.TabIndex = 2
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(88, 36)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'DateTimePicker1
         '
         Me.DateTimePicker1.AllowDrop = True
@@ -138,6 +129,15 @@ Partial Class Form5
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(147, 20)
         Me.DateTimePicker1.TabIndex = 79
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(88, 36)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Form5
         '

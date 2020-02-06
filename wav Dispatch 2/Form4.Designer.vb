@@ -25,39 +25,38 @@ Partial Class Form4
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
         Me.RepfltdeckBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
         Me.RepfltdeckTableAdapter = New wav_Dispatch_2.willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.FlightNumberDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DepArptDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DepGateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ArrArptDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ArrGateDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.StatusDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TypeOfOperationDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.OperationDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel5.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RepfltdeckBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Panel5.Controls.Add(Me.Label1)
         Me.Panel5.Controls.Add(Me.DateTimePicker1)
-        Me.Panel5.Controls.Add(Me.PictureBox1)
-        Me.Panel5.Location = New System.Drawing.Point(-11, 410)
+        Me.Panel5.Location = New System.Drawing.Point(-1, 1)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(1231, 39)
+        Me.Panel5.Size = New System.Drawing.Size(1231, 47)
         Me.Panel5.TabIndex = 46
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(236, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(542, 37)
+        Me.Label1.TabIndex = 83
+        Me.Label1.Text = "Welcome to the wav Dispatch Center"
         '
         'DateTimePicker1
         '
@@ -69,35 +68,15 @@ Partial Class Form4
         Me.DateTimePicker1.Size = New System.Drawing.Size(273, 20)
         Me.DateTimePicker1.TabIndex = 82
         '
-        'PictureBox1
+        'RepfltdeckBindingSource
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(846, -7)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(96, 46)
-        Me.PictureBox1.TabIndex = 81
-        Me.PictureBox1.TabStop = False
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.AutoGenerateColumns = False
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.FlightNumberDataGridViewTextBoxColumn, Me.DepArptDataGridViewTextBoxColumn, Me.DepGateDataGridViewTextBoxColumn, Me.ArrArptDataGridViewTextBoxColumn, Me.ArrGateDataGridViewTextBoxColumn, Me.StatusDataGridViewTextBoxColumn, Me.TypeOfOperationDataGridViewTextBoxColumn, Me.OperationDataGridViewTextBoxColumn})
-        Me.DataGridView1.DataSource = Me.RepfltdeckBindingSource
-        Me.DataGridView1.Location = New System.Drawing.Point(2, 6)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1218, 361)
-        Me.DataGridView1.TabIndex = 47
+        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
+        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
         '
         'WillairwayvirtualDbv1DataSet
         '
         Me.WillairwayvirtualDbv1DataSet.DataSetName = "willairwayvirtualDbv1DataSet"
         Me.WillairwayvirtualDbv1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'RepfltdeckBindingSource
-        '
-        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
-        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
         '
         'RepfltdeckTableAdapter
         '
@@ -105,116 +84,59 @@ Partial Class Form4
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(394, 369)
+        Me.Button2.Location = New System.Drawing.Point(396, 46)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(406, 39)
         Me.Button2.TabIndex = 86
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "go to  Flight Briefing Center"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(2, 369)
+        Me.Button1.Location = New System.Drawing.Point(-1, 46)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(406, 39)
+        Me.Button1.Size = New System.Drawing.Size(411, 39)
         Me.Button1.TabIndex = 87
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Create new FlightPlan"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(789, 369)
+        Me.Button3.Location = New System.Drawing.Point(799, 46)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(431, 39)
         Me.Button3.TabIndex = 88
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "logout"
         Me.Button3.UseVisualStyleBackColor = True
-        '
-        'FlightNumberDataGridViewTextBoxColumn
-        '
-        Me.FlightNumberDataGridViewTextBoxColumn.DataPropertyName = "flightNumber"
-        Me.FlightNumberDataGridViewTextBoxColumn.HeaderText = "flightNumber"
-        Me.FlightNumberDataGridViewTextBoxColumn.Name = "FlightNumberDataGridViewTextBoxColumn"
-        '
-        'DepArptDataGridViewTextBoxColumn
-        '
-        Me.DepArptDataGridViewTextBoxColumn.DataPropertyName = "DepArpt"
-        Me.DepArptDataGridViewTextBoxColumn.HeaderText = "DepArpt"
-        Me.DepArptDataGridViewTextBoxColumn.Name = "DepArptDataGridViewTextBoxColumn"
-        '
-        'DepGateDataGridViewTextBoxColumn
-        '
-        Me.DepGateDataGridViewTextBoxColumn.DataPropertyName = "DepGate"
-        Me.DepGateDataGridViewTextBoxColumn.HeaderText = "DepGate"
-        Me.DepGateDataGridViewTextBoxColumn.Name = "DepGateDataGridViewTextBoxColumn"
-        '
-        'ArrArptDataGridViewTextBoxColumn
-        '
-        Me.ArrArptDataGridViewTextBoxColumn.DataPropertyName = "ArrArpt"
-        Me.ArrArptDataGridViewTextBoxColumn.HeaderText = "ArrArpt"
-        Me.ArrArptDataGridViewTextBoxColumn.Name = "ArrArptDataGridViewTextBoxColumn"
-        '
-        'ArrGateDataGridViewTextBoxColumn
-        '
-        Me.ArrGateDataGridViewTextBoxColumn.DataPropertyName = "ArrGate"
-        Me.ArrGateDataGridViewTextBoxColumn.HeaderText = "ArrGate"
-        Me.ArrGateDataGridViewTextBoxColumn.Name = "ArrGateDataGridViewTextBoxColumn"
-        '
-        'StatusDataGridViewTextBoxColumn
-        '
-        Me.StatusDataGridViewTextBoxColumn.DataPropertyName = "Status"
-        Me.StatusDataGridViewTextBoxColumn.HeaderText = "Status"
-        Me.StatusDataGridViewTextBoxColumn.Name = "StatusDataGridViewTextBoxColumn"
-        '
-        'TypeOfOperationDataGridViewTextBoxColumn
-        '
-        Me.TypeOfOperationDataGridViewTextBoxColumn.DataPropertyName = "type of operation"
-        Me.TypeOfOperationDataGridViewTextBoxColumn.HeaderText = "type of operation"
-        Me.TypeOfOperationDataGridViewTextBoxColumn.Name = "TypeOfOperationDataGridViewTextBoxColumn"
-        '
-        'OperationDataGridViewTextBoxColumn
-        '
-        Me.OperationDataGridViewTextBoxColumn.DataPropertyName = "operation"
-        Me.OperationDataGridViewTextBoxColumn.HeaderText = "operation"
-        Me.OperationDataGridViewTextBoxColumn.Name = "OperationDataGridViewTextBoxColumn"
         '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1220, 450)
+        Me.ClientSize = New System.Drawing.Size(1214, 80)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Panel5)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form4"
-        Me.Text = "Form4"
+        Me.Text = "wav Dispatch menu"
         Me.Panel5.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel5.PerformLayout()
         CType(Me.RepfltdeckBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel5 As Panel
     Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents WillairwayvirtualDbv1DataSet As willairwayvirtualDbv1DataSet
     Friend WithEvents RepfltdeckBindingSource As BindingSource
     Friend WithEvents RepfltdeckTableAdapter As willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter
-    Friend WithEvents FlightNumberDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents DepArptDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents DepGateDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents ArrArptDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents ArrGateDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents StatusDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents TypeOfOperationDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents OperationDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Label1 As Label
 End Class
