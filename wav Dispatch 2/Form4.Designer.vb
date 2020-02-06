@@ -22,20 +22,14 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.RepfltdeckBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.WillairwayvirtualDbv1DataSet = New wav_Dispatch_2.willairwayvirtualDbv1DataSet()
-        Me.RepfltdeckTableAdapter = New wav_Dispatch_2.willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel5.SuspendLayout()
-        CType(Me.RepfltdeckBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel5
@@ -67,20 +61,6 @@ Partial Class Form4
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(273, 40)
         Me.DateTimePicker1.TabIndex = 82
-        '
-        'RepfltdeckBindingSource
-        '
-        Me.RepfltdeckBindingSource.DataMember = "repfltdeck"
-        Me.RepfltdeckBindingSource.DataSource = Me.WillairwayvirtualDbv1DataSet
-        '
-        'WillairwayvirtualDbv1DataSet
-        '
-        Me.WillairwayvirtualDbv1DataSet.DataSetName = "willairwayvirtualDbv1DataSet"
-        Me.WillairwayvirtualDbv1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'RepfltdeckTableAdapter
-        '
-        Me.RepfltdeckTableAdapter.ClearBeforeFill = True
         '
         'Button2
         '
@@ -124,17 +104,12 @@ Partial Class Form4
         Me.Text = "wav Dispatch menu"
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
-        CType(Me.RepfltdeckBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.WillairwayvirtualDbv1DataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel5 As Panel
     Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents WillairwayvirtualDbv1DataSet As willairwayvirtualDbv1DataSet
-    Friend WithEvents RepfltdeckBindingSource As BindingSource
-    Friend WithEvents RepfltdeckTableAdapter As willairwayvirtualDbv1DataSetTableAdapters.repfltdeckTableAdapter
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
