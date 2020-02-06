@@ -96,7 +96,7 @@ Public Class Form2
     End Sub
 
     Private Sub logout_Click(sender As Object, e As EventArgs) Handles logout.Click
-        Form4.Show()
+        Show()
         Me.Close()
 
     End Sub
