@@ -29,6 +29,7 @@ Partial Class Form4
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel5.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,7 +40,7 @@ Partial Class Form4
         Me.Panel5.Controls.Add(Me.DateTimePicker1)
         Me.Panel5.Location = New System.Drawing.Point(-1, 1)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(1231, 47)
+        Me.Panel5.Size = New System.Drawing.Size(1438, 47)
         Me.Panel5.TabIndex = 46
         '
         'Label1
@@ -89,11 +90,21 @@ Partial Class Form4
         Me.Button3.Text = "logout"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(1225, 46)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(222, 39)
+        Me.Button4.TabIndex = 89
+        Me.Button4.Text = "my schedule"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1214, 80)
+        Me.ClientSize = New System.Drawing.Size(1436, 80)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
@@ -114,4 +125,5 @@ Partial Class Form4
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button4 As Button
 End Class
